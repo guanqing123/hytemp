@@ -1,4 +1,4 @@
-define(['vue'], function (Vue) {
+define(['config', 'vue', 'lodash', 'loading'], function (config, Vue, _, loading) {
     new Vue({
         el: '#index',
         template: '<div id="root">' +
@@ -36,6 +36,44 @@ define(['vue'], function (Vue) {
                 totalJS: 0,
                 totalSK: 0
             }
+        },
+        methods: {
+            // 获取url中全部参数的对象
+            getUrlAllParams: function () {
+                // 解决乱码问题
+                var url = decodeURI(window.location.href)
+                var res = {}
+                var url_data = _.split(url, '?').length > 1 ? _.split(url, '?')[1] : null ;
+                if (!url_data) return null
+                var params_arr = _.split(url_data, '&')
+                _.forEach(params_arr, function(item) {
+                    var key = _.split(item, '=')[0]
+                    var value = _.split(item, '=')[1]
+                    res[key] = value
+                });
+                return res
+            }
+        },
+        created: function () {
+            var self = this;
+            var params = self.getUrlAllParams();
+            loading.showLoading("正在加载..","div");
+            fetch(config.baseUrl + "/yszk/remindMe", {
+                method: 'post',
+                body: JSON.stringify(params),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+            .then(res => res.json())
+            .then(json => {
+                if (json.code === 200) {
+                    self.totalSO = json.data.totalSO;
+                    self.totalJS = json.data.totalJS;
+                    self.totalSK = json.data.totalSK;
+                }
+            })
+            //https://ask.dcloud.net.cn/article/12856
         }
     })
 })
