@@ -1,8 +1,9 @@
-define(['config', 'vue', 'lodash', 'loading'], function (config, Vue, _, loading) {
+define(['config', 'vue', 'installer'], function (config, Vue, installer) {
+    Vue.use(installer);
     new Vue({
         el: '#index',
         template: '<div id="root">' +
-        '    <div class="mui-card">\n' +
+        '    <div @click="goso" class="mui-card">\n' +
         '        <div class="mui-card-header">签收单</div>\n' +
         '        <div class="mui-card-content">\n' +
         '            <div class="mui-card-content-inner">\n' +
@@ -11,7 +12,7 @@ define(['config', 'vue', 'lodash', 'loading'], function (config, Vue, _, loading
         '        </div>\n' +
         '        <div class="mui-card-footer">待上传订单总数: <span class="remaind-font">{{totalSO}}</span> (单位: 笔)</div>\n' +
         '    </div>\n' +
-        '    <div class="mui-card">\n' +
+        '    <div @click="gojs" class="mui-card">\n' +
         '        <div class="mui-card-header">开票提醒</div>\n' +
         '        <div class="mui-card-content">\n' +
         '            <div class="mui-card-content-inner">\n' +
@@ -20,7 +21,7 @@ define(['config', 'vue', 'lodash', 'loading'], function (config, Vue, _, loading
         '        </div>\n' +
         '        <div class="mui-card-footer">待开金税总计: <span class="remaind-font">{{totalJS}}</span> (单位: 元)</div>\n' +
         '    </div>\n' +
-        '    <div class="mui-card">\n' +
+        '    <div @click="gosk" class="mui-card">\n' +
         '        <div class="mui-card-header">收款提醒</div>\n' +
         '        <div class="mui-card-content">\n' +
         '            <div class="mui-card-content-inner">\n' +
@@ -38,26 +39,20 @@ define(['config', 'vue', 'lodash', 'loading'], function (config, Vue, _, loading
             }
         },
         methods: {
-            // 获取url中全部参数的对象
-            getUrlAllParams: function () {
-                // 解决乱码问题
-                var url = decodeURI(window.location.href)
-                var res = {}
-                var url_data = _.split(url, '?').length > 1 ? _.split(url, '?')[1] : null ;
-                if (!url_data) return null
-                var params_arr = _.split(url_data, '&')
-                _.forEach(params_arr, function(item) {
-                    var key = _.split(item, '=')[0]
-                    var value = _.split(item, '=')[1]
-                    res[key] = value
-                });
-                return res
+            goso: function () {
+                alert('1')
+            },
+            gojs: function () {
+                alert('2')
+            },
+            gosk: function () {
+                alert('3')
             }
         },
         created: function () {
             var self = this;
-            var params = self.getUrlAllParams();
-            loading.showLoading("正在加载..","div");
+            var params = self.$urlParams();
+            self.$show('哈哈哈哈...');
             fetch(config.baseUrl + "/yszk/remindMe", {
                 method: 'post',
                 body: JSON.stringify(params),
@@ -67,13 +62,16 @@ define(['config', 'vue', 'lodash', 'loading'], function (config, Vue, _, loading
             })
             .then(res => res.json())
             .then(json => {
-                if (json.code === 200) {
+                self.$hide();
+                if (self.$judgecode(json)){
                     self.totalSO = json.data.totalSO;
                     self.totalJS = json.data.totalJS;
                     self.totalSK = json.data.totalSK;
                 }
             })
-            //https://ask.dcloud.net.cn/article/12856
+            .catch(function (err) {
+                self.$hide();
+            });
         }
     })
 })
