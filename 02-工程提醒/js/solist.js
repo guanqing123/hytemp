@@ -1,23 +1,23 @@
-define(['vue', 'iscrollTable'], function (Vue, iscrollTable) {
+define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (config, Vue, iscrollTable, installer, _) {
+    Vue.use(installer);
     new Vue({
         el: '#solist',
-        template: ` <div class="pages-tables " id="pages-tables">
-            <!--<div class="waterMask" id="watermark"></div>-->
-            <div class="rolling-table meal-table" ref="tableBox" :style="{height: maxHeight + 'px'}">
-                <table class="table" id="table" cellpadding="0" cellspacing="0" ref="rollingTable">
-                    <tr v-for="(x,i) in xList" :key="i">
-                        <th class="rows " :class="{'cross': index == 0 && i == 0}" v-for="(l,index) in x" :key="index" :colspan="l.colspan" :rowspan="l.rowspan">{{l.name}}</th>
-                    </tr>
-                    <tr v-for="(l,i) in yList" :key="i + 'a'">
-                        <template v-for="(x, xKey) in xField">
-                            <td v-for="(ll,yKey) in l" :key="yKey" v-if="x === yKey" :class="{'cols': yKey == xField[0]}">
-                                {{ yList[i][yKey]}}
-                            </td>
-                        </template>
-                    </tr>
-                    <tr></tr>
-                </table>
-            </div>
+        template: ` <div class="pages-tables" id="pages-tables">
+                <div class="rolling-table meal-table" ref="tableBox" :style="{height: maxHeight + 'px'}">
+                    <table class="table" id="table" cellpadding="0" cellspacing="0" ref="rollingTable">
+                        <tr v-for="(x,i) in xList" :key="i">
+                            <th class="rows " :class="{'cross': index == 0 && i == 0}" v-for="(l,index) in x" :key="index" :colspan="l.colspan" :rowspan="l.rowspan">{{l.name}}</th>
+                        </tr>
+                        <tr v-for="(l,i) in yList" :key="i + 'a'">
+                            <template v-for="(x, xKey) in xField">
+                                <td v-for="(ll,yKey) in l" :key="yKey" v-if="x === yKey" :class="{'cols': yKey == xField[0]}">
+                                    {{ yList[i][yKey]}}
+                                </td>
+                            </template>
+                        </tr>
+                        <tr></tr>
+                    </table>
+                </div>
         </div>`,
         data: function () {
             return {
@@ -28,308 +28,64 @@ define(['vue', 'iscrollTable'], function (Vue, iscrollTable) {
                 xList: [
                     [
                         {
-                            field_name: "statis_date",
-                            name: "第一行合并3行1列",
-                            colspan: 1, //指定单元格 横向 跨越的 列数
-                            rowspan: 3, //指定单元格 纵向 跨越的 行数
+                            field_name: "XMBH",
+                            name: "项目编号"
                         },
                         {
-                            field_name: "custom_field",
-                            name: "第一行合并2列",
-                            colspan: 2,
-                            rowspan: 1,
-                        },
-                        {
-                            field_name: "custom_field",
-                            name: "第一行合并2列",
-                            colspan: 2,
-                            rowspan: 1,
-                        },
-                        {
-                            field_name: "custom_field",
-                            name: "第一行合并3列",
-                            colspan: 3,
-                            rowspan: 1,
-                        },
-                    ],
-                    [
-                        {
-                            field_name: "custom_field",
-                            name: "第二行日期",
-                            colspan: 1, //指定单元格 横向 跨越的 列数
-                            rowspan: 1, //指定单元格 纵向 跨越的 行数
-                        },
-                        {
-                            field_name: "custom_field",
-                            name: "第二行日期合并2列",
-                            colspan: 2,
-                            rowspan: 1,
-                        },
-                        {
-                            field_name: "custom_field",
-                            name: "第二行日期合并2列",
-                            colspan: 2,
-                            rowspan: 1,
-                        },
-                        {
-                            field_name: "custom_field",
-                            name: "第二行日期合并3列",
-                            colspan: 3,
-                            rowspan: 1,
-                        },
-                    ],
-                    [
-                        {
-                            field_name: "area_name",
-                            name: "第三行当月新增",
-                            colspan: 1,  //指定单元格 横向 跨越的 列数
-                            rowspan: 1, //指定单元格 纵向 跨越的 行数
-                        },
-                        {
-                            field_name: "area_name1",
-                            name: "第三行当月新增1",
-                            colspan: 1,
-                            rowspan: 1,
-                        },
-                        {
-                            field_name: "area_name2",
-                            name: "第三行当月新增2",
-                            colspan: 1,
-                            rowspan: 1,
-                        },
-                        {
-                            field_name: "area_name3",
-                            name: "第三行当月新增3",
-                            colspan: 1,
-                            rowspan: 1,
-                        },
-                        {
-                            field_name: "area_name4",
-                            name: "第三行当月新增4",
-                            colspan: 1,
-                            rowspan: 1,
-                        },
-                        {
-                            field_name: "area_name5",
-                            name: "第三行当月新增5",
-                            colspan: 1,
-                            rowspan: 1,
-                        },
-                        {
-                            field_name: "area_name6",
-                            name: "第三行当月新增6",
-                            colspan: 1,
-                            rowspan: 1,
-                        },
-                    ],
+                            field_name: "DDH",
+                            name: "订单号"
+                        }
+                    ]
                 ],
-                xField: ['statis_date', 'area_name', "area_name1", "area_name2", "area_name3", "area_name4", "area_name5", "area_name6",],
-                yList: [
-                    {
-                        area_name: "新增数据开始",
-                        area_name1: "新增数据开始1",
-                        area_name2: "新增数据开始2",
-                        area_name3: "新增数据开始3",
-                        area_name4: "新增数据开始4",
-                        area_name5: "新增数据开始5",
-                        area_name6: "新增数据开始6",
-                        statis_date: 100007,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据",
-                        area_name1: "新增数据1",
-                        area_name2: "新增数据2",
-                        area_name3: "新增数据3",
-                        area_name4: "新增数据4",
-                        area_name5: "新增数据5",
-                        area_name6: "新增数据6",
-                        statis_date: 201807,
-                    },
-                    {
-                        area_name: "新增数据最后",
-                        area_name1: "新增数据最后1",
-                        area_name2: "新增数据最后2",
-                        area_name3: "新增数据最后3",
-                        area_name4: "新增数据最后4",
-                        area_name5: "新增数据最后5",
-                        area_name6: "新增数据最后6",
-                        statis_date: 222222,
-                    }
-                ]
+                xField: ['XMBH', 'DDH'],
+                yList: [],
+                current: 1,
+                size: 65536,
+                pages: 0, // 总页数
+                currentPage: 1, // 当前页数
+                total: 0, // 总条数
+                ygbm: ''
             }
         },
-        mounted() {
-            this.maxHeight = window.screen.height
+        methods: {
+            nextPage: function () {
+              var self = this;
+              self.getData();
+            },
+            getData: function () {
+                var self = this;
+                self.$show('数据加载中...');
+                fetch(config.baseUrl + '/yszk/soList',{
+                    method: 'post',
+                    body: JSON.stringify({
+                        ygbm : self.ygbm,
+                        current: self.currentPage,
+                        size: self.size
+                    }),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                .then(res => res.json())
+                .then(json => {
+                    self.$hide();
+                    if (self.$judgecode(json)) {
+                        self.total = json.data.total;
+                        self.pages = json.data.pages;
+                        self.$set(self, 'yList', _.concat(self.yList, json.data.records));
+                        self.currentPage ++
+                    }
+                });
+            }
+        },
+        created: function () {
+            var params = this.$urlParams();
+            this.ygbm = params.ygbm;
+            this.getData();
+        },
+        mounted: function () {
+            // this.maxHeight = window.screen.height
+            this.maxHeight = window.innerHeight
             this.scroll.scroller =  iscrollTable.createIScroller(".meal-table");
             // addWaterMarker(document.getElementById('watermark'))
         }

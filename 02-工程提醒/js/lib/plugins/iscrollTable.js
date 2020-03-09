@@ -46,7 +46,7 @@ define(['iscroll-probe'], function (iScollProbe) {
         return scroller;
     }
 
-    var refreshScroller = function () {
+/*    var refreshScroller = function () {
         if (scroller === null) {
             console.error("先初始化scroller");
             return;
@@ -67,10 +67,9 @@ define(['iscroll-probe'], function (iScollProbe) {
         for (let i = 0; i < frozenCrosses.length; i++) {
             frozenCrosses[i].style.transform = 'translate(0px, 0px) translateZ(0px)';
         }
-    }, 0);
+    }, 0);*/
 
     return {
-        createIScroller,
-        refreshScroller
+        createIScroller
     }
 })
