@@ -1,7 +1,7 @@
 define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (config, Vue, iscrollTable, installer, _) {
     Vue.use(installer);
     new Vue({
-        el: '#solist',
+        el: '#jslist',
         template: ` <div class="pages-tables" id="pages-tables">
                 <div class="rolling-table meal-table" ref="tableBox" :style="{height: maxHeight + 'px'}">
                     <table class="table" id="table" cellpadding="0" cellspacing="0" ref="rollingTable">
@@ -15,7 +15,7 @@ define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (confi
                                 </td>
                             </template>
                         </tr>
-                        <tr><td>总条数：</td><td>{{total}}</td></tr>
+                        <tr></tr>
                     </table>
                 </div>
         </div>`,
@@ -28,16 +28,36 @@ define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (confi
                 xList: [
                     [
                         {
-                            field_name: "XMBH",
+                            field_name: "PJT",
                             name: "项目编号"
                         },
                         {
-                            field_name: "DDH",
-                            name: "订单号"
+                            field_name: "RQ",
+                            name: "发货日期"
+                        },
+                        {
+                            field_name: "FHJE",
+                            name: "发货金额"
+                        },
+                        {
+                            field_name: "JSFP",
+                            name: "已开金税"
+                        },
+                        {
+                            field_name: "FLJE",
+                            name: "返利金额"
+                        },
+                        {
+                            field_name: "THJE",
+                            name: "退货金额"
+                        },
+                        {
+                            field_name: "DKJS",
+                            name: "待开金税"
                         }
                     ]
                 ],
-                xField: ['XMBH', 'DDH'],
+                xField: ['PJT', 'RQ', 'FHJE', 'JSFP', 'FLJE', 'THJE', 'DKJS'],
                 yList: [],
                 current: 1,
                 size: 65536,
@@ -51,7 +71,7 @@ define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (confi
             getData: function () {
                 var self = this;
                 self.$show('数据加载中...');
-                fetch(config.baseUrl + '/yszk/soList',{
+                fetch(config.baseUrl + '/yszk/jsList',{
                     method: 'post',
                     body: JSON.stringify({
                         ygbm : self.ygbm,
@@ -72,6 +92,19 @@ define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (confi
                         self.currentPage ++;
                     }
                 });
+            },
+            hengshuping: function () {
+                var self = this;
+                setTimeout(function () {
+                    if(window.orientation==180||window.orientation==0){
+                        self.maxHeight = window.innerHeight;
+                        self.scroll.scroller.refresh();
+                    }
+                    if(window.orientation==90||window.orientation==-90){
+                        self.maxHeight = window.innerHeight;
+                        self.scroll.scroller.refresh();
+                    }
+                }, 200);
             }
         },
         created: function () {
@@ -84,6 +117,10 @@ define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (confi
             this.maxHeight = window.innerHeight
             this.scroll.scroller =  iscrollTable.createIScroller(".meal-table");
             // addWaterMarker(document.getElementById('watermark'))
+            window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", this.hengshuping, false);
+        },
+        beforeDestroy: function () {
+            window.removeEventListener("onorientationchange" in window ? "orientationchange" : "resize", this.hengshuping, false);
         }
     })
 })

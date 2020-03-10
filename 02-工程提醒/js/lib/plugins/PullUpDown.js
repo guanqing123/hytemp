@@ -60,7 +60,7 @@ define(['vue'], function (Vue) {
             //下拉刷新监听
             bindRefresh: function () {
                 var self = this;
-                var parent = document.querySelector(".pull");
+                var parent = document.querySelector(".table");
                 parent.addEventListener('touchstart', function(e) {
                     self.startY = e.touches[0].pageY;
                 });

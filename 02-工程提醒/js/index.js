@@ -45,10 +45,14 @@ define(['config', 'vue', 'installer'], function (config, Vue, installer) {
                 window.location.href = 'solist.html?ygbm='+ params.ygbm;
             },
             gojs: function () {
-                alert('2')
+                var self = this;
+                var params = self.$urlParams();
+                window.location.href = 'jslist.html?ygbm='+ params.ygbm;
             },
             gosk: function () {
-                alert('3')
+                var self = this;
+                var params = self.$urlParams();
+                window.location.href = 'sklist.html?ygbm='+ params.ygbm;
             }
         },
         created: function () {
