@@ -15,7 +15,8 @@ define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (confi
                                 </td>
                             </template>
                         </tr>
-                        <tr><td>总条数：</td><td>{{total}}</td></tr>
+                        <tr v-if="yList.length > 0"><td>总条数：</td><td>{{total}}</td></tr>
+                        <tr></tr>
                     </table>
                 </div>
         </div>`,
@@ -72,6 +73,19 @@ define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (confi
                         self.currentPage ++;
                     }
                 });
+            },
+            hengshuping: function () {
+                var self = this;
+                setTimeout(function () {
+                    if(window.orientation==180||window.orientation==0){
+                        self.maxHeight = window.innerHeight;
+                        self.scroll.scroller.refresh();
+                    }
+                    if(window.orientation==90||window.orientation==-90){
+                        self.maxHeight = window.innerHeight;
+                        self.scroll.scroller.refresh();
+                    }
+                }, 200);
             }
         },
         created: function () {
@@ -84,6 +98,10 @@ define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (confi
             this.maxHeight = window.innerHeight
             this.scroll.scroller =  iscrollTable.createIScroller(".meal-table");
             // addWaterMarker(document.getElementById('watermark'))
+            window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", this.hengshuping, false);
+        },
+        beforeDestroy: function () {
+            window.removeEventListener("onorientationchange" in window ? "orientationchange" : "resize", this.hengshuping, false);
         }
     })
 })
