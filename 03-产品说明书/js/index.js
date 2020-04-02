@@ -1,73 +1,28 @@
-define(['config', 'vue', 'installer'], function (config, Vue, installer) {
+define(['config', 'vue', 'installer', 'mui'], function (config, Vue, installer, mui) {
     Vue.use(installer);
     new Vue({
         el: '#index',
         template: `<div class="mui-content">
-            <div class="mui-input-row mui-search">
-                <input type="search" class="mui-input-clear" placeholder="">
+            <div class="mui-content-padded" style="margin: 15px 5px 0px 5px">
+                <div class="mui-input-row mui-search">
+                    <input type="search" class="mui-input-clear" placeholder="产品型号" @blur="search">
+                </div>
             </div>
 		    <ul class="mui-table-view mui-table-view-striped mui-table-view-condensed">
-		        <li class="mui-table-view-cell">
+		        <li class="mui-table-view-cell" v-for="sms in cpsms">
 		            <div class="mui-table">
-		                <div class="mui-table-cell mui-col-xs-10">
-		                    <h4 class="mui-ellipsis">信息化推进办公室张彦合同付款信息化</h4>
-		                    <h5>申请人：李四</h5>
-		                    <p class="mui-h6 mui-ellipsis">Hi，李明明，申请交行信息卡，100元等你拿，李明明，申请交行信息卡，100元等你拿，</p>
-		                </div>
-		                <div class="mui-table-cell mui-col-xs-2 mui-text-right">
-		                    <span class="mui-h5">12:25</span>
-		                </div>
-		            </div>
-		        </li>
-		        <li class="mui-table-view-cell">
-		            <div class="mui-table">
-		                <div class="mui-table-cell mui-col-xs-10">
-		                    <h4 class="mui-ellipsis-2">信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款</h4>
-		                    <h5>申请人：李四</h5>
-		                    <p class="mui-h6 mui-ellipsis">Hi，李明明，申请交行信息卡，100元等你拿，李明明，申请交行信息卡，100元等你拿，</p>
-		                </div>
-		                <div class="mui-table-cell mui-col-xs-2 mui-text-right">
-		                    <span class="mui-h5">12:25</span>
-		                     
-		                </div>
-		            </div>
-		        </li>
-		        <li class="mui-table-view-cell">
-		            <div class="mui-table">
-		                <div class="mui-table-cell mui-col-xs-10">
-		                    <h4 class="mui-ellipsis-2">信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款</h4>
-		                    <h5>申请人：李四</h5>
-		                    <p class="mui-h6 mui-ellipsis">Hi，李明明，申请交行信息卡，100元等你拿，李明明，申请交行信息卡，100元等你拿，</p>
-		                </div>
-		                <div class="mui-table-cell mui-col-xs-2 mui-text-right">
-		                    <span class="mui-h5">12:25</span>
-		                    
-		                </div>
-		            </div>
-		        </li>
-		        <li class="mui-table-view-cell">
-		            <div class="mui-table">
-		                <div class="mui-table-cell mui-col-xs-10">
-		                    <h4 class="mui-ellipsis-2">信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款</h4>
-		                    <h5>申请人：李四</h5>
-		                    <p class="mui-h6 mui-ellipsis">Hi，李明明，申请交行信息卡，100元等你拿，李明明，申请交行信息卡，100元等你拿，</p>
-		                </div>
-		                <div class="mui-table-cell mui-col-xs-2 mui-text-right">
-		                    <span class="mui-h5">12:25</span>
-		                   
-		                </div>
-		            </div>
-		        </li>
-		        <li class="mui-table-view-cell">
-		            <div class="mui-table">
-		                <div class="mui-table-cell mui-col-xs-10">
-		                    <h4 class="mui-ellipsis-2">信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款信息化推进办公室张彦合同付款</h4>
-		                    <h5>申请人：李四</h5>
-		                    <p class="mui-h6 mui-ellipsis">Hi，李明明，申请交行信息卡，100元等你拿，李明明，申请交行信息卡，100元等你拿，</p>
-		                </div>
-		                <div class="mui-table-cell mui-col-xs-2 mui-text-right">
-		                    <span class="mui-h5">12:25</span>
-		                     
+		                <div class="mui-table-cell mui-col-xs-12">
+		                    <h4 class="mui-ellipsis">型号：{{sms.cpxh}}</h4>
+		                    <p class="mui-h6 mui-ellipsis">名称：{{sms.cpmc}}</p>
+		                    <h6>代码：{{sms.cpdm}}</h6>
+                            <template v-for="lb in sms.lbs">
+                                <template v-if="lb.lb === 1">
+                                    <a v-for="(wjm, index) in lb.wjms" class="mui-h6 mui-table-cell mui-col-xs-4">说明书-{{index+1}}</a>
+                                </template>
+                                <template v-else>
+                                    <a v-for="(wjm, index) in lb.wjms" class="mui-h6 mui-table-cell mui-col-xs-4">ROSH-{{index+1}}</a>
+                                </template>
+                            </template>
 		                </div>
 		            </div>
 		        </li>
@@ -75,19 +30,34 @@ define(['config', 'vue', 'installer'], function (config, Vue, installer) {
 		</div>`,
         data: function () {
             return {
-                totalSO: 0,
-                totalJS: 0,
-                totalSK: 0
+                cpsms: []
             }
         },
         methods: {
-
+            search: function (e) {
+                var self = this;
+                self.$show('数据加载中...');
+                var params = "current=0&size=20&condition=" + e.target.value;
+                fetch(config.testUrl + "/cpsms/search", {
+                    method: 'post',
+                    body: params,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                .then(res => res.json())
+                .then(json => {
+                    self.$hide();
+                    if (self.$judgecode(json)) {
+                        self.cpsms = json.data.records
+                    }
+                });
+            }
         },
         created: function () {
-/*            var self = this;
-            var params = self.$urlParams();
+            /*var self = this;
             self.$show('数据加载中...');
-            fetch(config.baseUrl + "/yszk/remindMe", {
+            fetch(config.testUrl + "/cpsms/search", {
                 method: 'post',
                 body: JSON.stringify(params),
                 headers: {
@@ -106,6 +76,11 @@ define(['config', 'vue', 'installer'], function (config, Vue, installer) {
             .catch(function (err) {
                 self.$hide();
             });*/
+        },
+        mounted: function () {
+            this.$nextTick(function () {
+                mui('.mui-input-row input').input();
+            })
         }
     })
 })
