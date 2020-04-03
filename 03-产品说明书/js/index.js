@@ -2,32 +2,34 @@ define(['config', 'vue', 'installer', 'mui'], function (config, Vue, installer, 
     Vue.use(installer);
     new Vue({
         el: '#index',
-        template: `<div class="mui-content">
-            <div class="mui-content-padded" style="margin: 15px 5px 0px 5px">
-                <div class="mui-input-row mui-search">
-                    <input type="search" class="mui-input-clear" placeholder="产品型号" @blur="search">
-                </div>
-            </div>
-		    <ul class="mui-table-view mui-table-view-striped mui-table-view-condensed">
-		        <li class="mui-table-view-cell" v-for="sms in cpsms">
-		            <div class="mui-table">
-		                <div class="mui-table-cell mui-col-xs-12">
-		                    <h4 class="mui-ellipsis">型号：{{sms.cpxh}}</h4>
-		                    <p class="mui-h6 mui-ellipsis">名称：{{sms.cpmc}}</p>
-		                    <h6>代码：{{sms.cpdm}}</h6>
-                            <template v-for="lb in sms.lbs">
-                                <template v-if="lb.lb === 1">
-                                    <a v-for="(wjm, index) in lb.wjms" class="mui-h6 mui-table-cell mui-col-xs-4">说明书-{{index+1}}</a>
-                                </template>
-                                <template v-else>
-                                    <a v-for="(wjm, index) in lb.wjms" class="mui-h6 mui-table-cell mui-col-xs-4">ROSH-{{index+1}}</a>
-                                </template>
-                            </template>
-		                </div>
-		            </div>
-		        </li>
-		    </ul>
-		</div>`,
+        template: '<div class="mui-content">\n' +
+        '            <div class="mui-content-padded" style="margin: 15px 5px 0px 5px">\n' +
+        '                <div class="mui-input-row mui-search">\n' +
+        '                    <input type="search" class="mui-input-clear" placeholder="产品型号" @blur="search">\n' +
+        '                </div>\n' +
+        '            </div>\n' +
+        '\t\t    <ul class="mui-table-view mui-table-view-striped mui-table-view-condensed">\n' +
+        '\t\t        <li class="mui-table-view-cell" v-for="sms in cpsms">\n' +
+        '\t\t            <div class="mui-table">\n' +
+        '\t\t                <div class="mui-table-cell mui-col-xs-12">\n' +
+        '\t\t                    <h4 class="mui-ellipsis">型号：{{sms.cpxh}}</h4>\n' +
+        '\t\t                    <p class="mui-h6 mui-ellipsis">名称：{{sms.cpmc}}</p>\n' +
+        '\t\t                    <h6>代码：{{sms.cpdm}}</h6>\n' +
+        '\t\t                    <div v-if="sms.lbs.length > 0" style="display: flex">\n' +
+        '                                <template v-for="lb in sms.lbs">\n' +
+        '                                    <template v-if="lb.lb === 1">\n' +
+        '                                        <a href="javascript:void(0);" @click="download(wjm)" style="flex: 1; font-size: 12px;" v-for="(wjm, index) in lb.wjms">说明书-{{index+1}}</a>\n' +
+        '                                    </template>\n' +
+        '                                    <template v-else>\n' +
+        '                                        <a href="javascript:void(0);" @click="download(wjm)" style="flex: 1; font-size: 12px;" v-for="(wjm, index) in lb.wjms">ROSH-{{index+1}}</a>\n' +
+        '                                    </template>\n' +
+        '                                </template>\n' +
+        '                            </div>\n' +
+        '\t\t                </div>\n' +
+        '                    </div>\n' +
+        '\t\t        </li>\n' +
+        '\t\t    </ul>\n' +
+        '\t\t</div>',
         data: function () {
             return {
                 cpsms: []
@@ -45,13 +47,50 @@ define(['config', 'vue', 'installer', 'mui'], function (config, Vue, installer, 
                         'Content-Type': 'application/x-www-form-urlencoded'
                     }
                 })
-                .then(res => res.json())
-                .then(json => {
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (json) {
                     self.$hide();
                     if (self.$judgecode(json)) {
                         self.cpsms = json.data.records
                     }
                 });
+            },
+            download: function (wjm) {
+                var self = this;
+                self.$show('下载中...');
+                fetch(config.testUrl + "/cpsms/download", {
+                    method: 'post',
+                    body: JSON.stringify(wjm),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                // .then(res => res.blob().then(blob => {
+                    .then(function (response) {
+                        response.blob().then(function (blob) {
+                            self.$hide();
+                            var filename = wjm.wjm;
+                            if (window.navigator.msSaveOrOpenBlob) {
+                                navigator.msSaveBlob(blob, filename); //兼容ie10
+                            } else {
+                                var a = document.createElement('a');
+
+                                document.body.appendChild(a) //兼容火狐，将a标签添加到body当中
+
+                                var url = window.URL.createObjectURL(blob);   // 获取 blob 本地文件连接 (blob 为纯二进制对象，不能够直接保存到磁盘上)
+                                a.href = url;
+                                a.download = filename;
+                                a.target='_blank'; // a标签增加target属性
+                                a.click();
+                                a.remove(); //移除a标签
+                                window.URL.revokeObjectURL(url);
+                            }
+                        })
+                    })
+
+                // }));
             }
         },
         created: function () {
