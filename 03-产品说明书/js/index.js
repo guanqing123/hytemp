@@ -86,6 +86,7 @@ define(['config', 'vue', 'installer', 'mui'], function (config, Vue, installer, 
                                 a.click();
                                 a.remove(); //移除a标签
                                 window.URL.revokeObjectURL(url);
+                                // window.open(URL.createObjectURL(blob))
                             }
                         })
                     })
