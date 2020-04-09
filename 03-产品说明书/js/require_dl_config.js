@@ -9,5 +9,5 @@ define(function () {
             "installer": "plugins/installer"
         }
     });
-    require(["../index"])
+    require(["../download"])
 });

@@ -1,4 +1,4 @@
-define(['mui'], function (mui) {
+define(['lodash', 'mui'], function (_, mui) {
     /* 扩展mui.showLoading */
     (function($, window) {
         //显示加载框
@@ -60,6 +60,22 @@ define(['mui'], function (mui) {
     // vue插件必须具备Installer函数
     function Installer() { /*自定义初始化行为*/ }
     Installer.install = function (Vue) {
+
+        /*获取url中全部参数的对象*/
+        Vue.prototype.$urlParams = function () {
+            // 解决乱码问题
+            var url = decodeURI(window.location.href)
+            var res = {}
+            var url_data = _.split(url, '?').length > 1 ? _.split(url, '?')[1] : null ;
+            if (!url_data) return null
+            var params_arr = _.split(url_data, '&')
+            _.forEach(params_arr, function(item) {
+                var key = _.split(item, '=')[0]
+                var value = _.split(item, '=')[1]
+                res[key] = value
+            });
+            return res;
+        }
 
         /*loading*/
         Vue.prototype.$show = function (msg, type) {
