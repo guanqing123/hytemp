@@ -22,7 +22,7 @@ define(['config', 'vue', 'installer'], function (config, Vue, installer) {
             }
             if (self.isWeiXin) return;
             var params = this.$urlParams();
-            window.top.location.href = config.testUrl + '/cpsms/down?fileName=' + params.wjm;
+            window.location.href = config.testUrl + '/cpsms/down?fileName=' + params.wjm;
         }
     })
 })

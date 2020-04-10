@@ -6,7 +6,8 @@ define(function () {
             "mui": "mui.min",
             "vue": "vue",
             "lodash": "lodash.min",
-            "installer": "plugins/installer"
+            "plugins": "plugins",
+            "jquery": "jquery"
         }
     });
     require(["../index"])

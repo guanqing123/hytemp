@@ -1,14 +1,18 @@
-define(['config', 'vue', 'installer', 'mui'], function (config, Vue, installer, mui) {
+define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquery'], function (config, Vue, installer, PullUpDown, mui, $) {
     Vue.use(installer);
     new Vue({
         el: '#index',
+        components: {
+            "PullUpDown" : PullUpDown
+        },
         template: `<div class="mui-content">
              <div class="mui-content-padded" style="margin: 15px 5px 0px 5px">
                  <div class="mui-input-row mui-search">
                      <input type="search" class="mui-input-clear" placeholder="产品型号" @blur="search">
                  </div>
              </div>
-             <ul class="mui-table-view mui-table-view-striped mui-table-view-condensed">
+             <ul class="mui-table-view mui-table-view-striped mui-table-view-condensed pull">
+                <PullUpDown ref="pull" :pullDown="false" :sum="sum" :currentPage="currentPage" :count="count" @nextPage="nextPage">
                  <li class="mui-table-view-cell" v-for="sms in cpsms">
                      <div class="mui-table">
                          <div class="mui-table-cell mui-col-xs-12">
@@ -28,22 +32,32 @@ define(['config', 'vue', 'installer', 'mui'], function (config, Vue, installer, 
                          </div>
                      </div>
                  </li>
+                 </PullUpDown>
              </ul>
              <div v-show="share" id="shadowContainer">
                 <div class="iknow" @click="hideShare"></div>
             </div>
+            <a class="backTop hide">
+                <span class="mui-icon mui-icon-arrowup"></span>
+            </a>
         </div>`,
         data: function () {
             return {
                 cpsms: [],
-                share: false
+                share: false,
+                count: 0,
+                currentPage: 0,
+                sum: 0,
+                condition:''
             }
         },
         methods: {
             search: function (e) {
                 var self = this;
                 self.$show('数据加载中...');
-                var params = "current=0&size=20&condition=" + e.target.value;
+                self.currentPage = 1;
+                self.condition = e.target.value;
+                var params = "current="+self.currentPage+"&size=10&condition=" + self.condition;
                 fetch(config.testUrl + "/cpsms/search", {
                     method: 'post',
                     body: params,
@@ -57,17 +71,50 @@ define(['config', 'vue', 'installer', 'mui'], function (config, Vue, installer, 
                 .then(function (json) {
                     self.$hide();
                     if (self.$judgecode(json)) {
-                        self.cpsms = json.data.records
+                        var res = json.data;
+                        self.cpsms = res.records
+                        self.count = res.pages;
+                        self.sum = res.total;
+                        self.currentPage ++;
+                        // 关闭下拉
+                        self.$refs['pull'].closePullDown();
                     }
                 });
             },
             download: function (wjm) {
-                window.top.location.href = '../download.html?wjm='+ wjm.wjm
+                window.location.href = '../download.html?wjm='+ wjm.wjm
             },
             hideShare: function () {
                 var self = this;
                 self.share = !self.share
-            }
+            },
+            nextPage: function () {
+                var self = this;
+                self.$show('数据加载中...');
+                var params = "current="+self.currentPage+"&size=10&condition=" + self.condition;
+                fetch(config.testUrl + "/cpsms/search", {
+                    method: 'post',
+                    body: params,
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    }
+                })
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (json) {
+                    self.$hide();
+                    if (self.$judgecode(json)) {
+                        var res = json.data;
+                        self.cpsms = self.cpsms.concat(res.records);
+                        self.count = res.pages;
+                        self.sum = res.total;
+                        self.currentPage ++;
+                        // 关闭下拉
+                        self.$refs['pull'].closePullDown();
+                    }
+                });
+            },
             /*download: function (wjm) {
                 var self = this;
                 self.$show('下载中...');
@@ -106,9 +153,10 @@ define(['config', 'vue', 'installer', 'mui'], function (config, Vue, installer, 
             }*/
         },
         mounted: function () {
+            var self = this;
             this.$nextTick(function () {
                 mui('.mui-input-row input').input();
-            })
+            });
         }
     })
 })
