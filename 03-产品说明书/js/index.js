@@ -82,7 +82,7 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
                 });
             },
             download: function (wjm) {
-                window.location.href = '../download.html?wjm='+ wjm.wjm
+                window.location.href = 'download.html?wjm='+ wjm.wjm
             },
             hideShare: function () {
                 var self = this;
