@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>web sdk自定义接入（标签、窗口）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-alpha.3/css/bootstrap.css" rel="stylesheet">
+    <style media="screen">
+        .m-crm {
+            max-width: 400px;
+            margin: 2rem auto 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="m-crm">
+        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="url()">URL接入方式</button>
+        <button type="button" class="btn btn-default btn-lg btn-block" onclick="openSdk()">Open接入方式</button>
+    </div>
+
+    <script type="text/javascript">
+        (function (w, d, n, a, j) {
+            w[n] = w[n] || function () {
+                (w[n].a = w[n].a || []).push(arguments);
+            };
+            j = d.createElement('script');
+            j.async = true;
+            j.src ='https://qiyukf.com/script/85cdffbd3ba211a68e2896899167ee3c.js?hidden=1';
+            d.body.appendChild(j);
+        })(window, document, 'ysf');
+        
+        var isSdkReady = false;
+        ysf('onready', function () {
+            isSdkReady = true;
+        })
+
+        window.url = function () {
+            if(isSdkReady) {
+                location.href = ysf('url');
+            }else {
+                alert('sdk尚未加载成功，请稍后再试');
+            }
+        }
+
+        window.openSdk = function () {
+            if (isSdkReady) {
+                ysf('open');
+            } else {
+                alert('sdk尚未加载成功，请稍后再试');
+            }
+        }
+    </script>
+</body>
+</html>

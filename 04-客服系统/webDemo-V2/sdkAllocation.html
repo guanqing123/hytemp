@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>web sdk访客分流</title>
+</head>
+
+<body>
+    <script>
+        (function (w, d, n, a, j) {
+            w[n] = w[n] || function () {
+                (w[n].a = w[n].a || []).push(arguments);
+            };
+            j = d.createElement('script');
+            j.async = true;
+            j.src ='https://qiyukf.com/script/85cdffbd3ba211a68e2896899167ee3c.js';
+            d.body.appendChild(j);
+        })(window, document, 'ysf');
+
+        ysf('config', {
+            uid: "123456789",  // 用户Id
+            name: 'test',     // 用户名称
+            staffid: '123', // 客服id
+            groupid: '123' // 客服组id
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>web sdk高级crm接入</title>
+</head>
+
+<body>
+    <script>
+        (function (w, d, n, a, j) {
+            w[n] = w[n] || function () {
+                (w[n].a = w[n].a || []).push(arguments);
+            };
+            j = d.createElement('script');
+            j.async = true;
+            j.src ='https://qiyukf.com/script/85cdffbd3ba211a68e2896899167ee3c.js';
+            d.body.appendChild(j);
+        })(window, document, 'ysf');
+
+        ysf('config', {
+            uid: "1442286211167",
+            data: JSON.stringify([
+                { "key": "real_name", "value": "七鱼" },
+                { "key": "mobile_phone", "hidden": true },
+                { "key": "email", "value": "13800000000@163.com" },
+                { "index": 0, "key": "account", "label": "账号", "value": "zhangsan", "href": "http://example.domain/user/zhangsan" },
+                { "index": 1, "key": "sex", "label": "性别", "value": "先生" },
+                { "index": 2, "key": "reg_date", "label": "注册日期", "value": "2015-11-16" },
+                { "index": 3, "key": "last_login", "label": "上次登录时间", "value": "2015-12-22 15:38:54" }
+            ])
+        })
+    </script>
+</body>
+
+</html>

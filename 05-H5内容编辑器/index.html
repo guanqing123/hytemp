@@ -1,0 +1,718 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>页面在线设计 - 快鱼官方商城</title>
+    <link href="./resources/js/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./resources/js/Bootstrap/font-awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+    
+    <link href="./resources/js/layer/skin/layer.css" rel="stylesheet" />
+    <link href="./resources/js/Bootstrap/plugin/dropdown/jquery.dropdown.min.css" rel="stylesheet" />
+    <link href="./resources/js/UFXUI/themes/light/style.css" rel="stylesheet" />
+    <script src="./resources/js/jquery.min.js"></script>
+    <script src="./resources/js/bootstrap/bootstrap.min.js"></script>
+    <script src="./resources/js/jquery.ajaxupload.js"></script>
+    <script src="./resources/js/layer/layer.js"></script>
+	<script src="./resources/js/GobalHelper.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var isChrome = navigator.userAgent.toLowerCase().match(/chrome/) != null || navigator.userAgent.toLowerCase().match(/safari/) != null;
+            if (!isChrome) {
+                layer.alert("为达到更好的使用体验，我们强烈建议您使用Chrome浏览器访问！", {
+                    time: 0,
+                    icon: 6, shift: 0, title: '温馨提示',
+                    btn: ["这就去试试Chrome","算了吧"],
+                    yes: function (index) {
+                        layer.close(index);
+                        window.open("https://www.baidu.com/s?wd=chrome");
+                    }
+                });
+            }
+        });
+    </script>
+    
+</head>
+<body>
+
+<div id="pjax-container">
+    
+<link href="./resources/js/Bootstrap/plugin/dropdown/uf.dropdown.min.css" rel="stylesheet" />
+<link href="./resources/images/pageDesign/pageWidget.css" rel="stylesheet" />
+<input type="hidden" id="txtPageId" value="b8917fd4-fcb5-4177-9760-de770c94d339" />
+<div class="card" style="max-width:900px;margin-top:-20px;">
+    <div class="title"><i class="fa fa-th-list"></i> 页面在线设计</div>
+    <div class="row">
+        <div class="col-xs-12" style="text-align:right;">
+            <button class="btn btn-success btn-sm" onclick="savePageDesign()"><i class="fa fa-save"></i> 保存设计</button>
+            <button class="btn btn-success btn-sm" onclick="showVisitLink()"><i class="fa fa-eye"></i> 预览页面</button>
+            <button class="btn btn-danger btn-sm" onclick="publishPageDesign()"><i class="fa fa-print"></i> 发布页面</button>
+        </div>
+        <div class="col-xs-12">
+            <div class="app-inner clearfix">
+                <div class="app-preview" style="width:350px;border:1px solid #e5e5e5;border-radius:18px 18px 0px 0px;min-height:200px;">
+                    <div style="background:url(./resources/images/iphone_head.png) center center no-repeat;background-size:80px 34px;height:70px;"></div>
+                    <div class="app-entry" style="background-color:#fbf9fe;width: 320px;min-height:350px;margin: 0 auto;padding-bottom: 11px;border:1px solid #e5e5e5;height:auto;">
+                        <div id="sortable">
+                            <div class="ufm-sort" data-field-type="uf-image" data-col="2" data-ads="1" draggable="false"><div class="field-html"><div class="clearfix"><div class="swiper-container swiper-container-horizontal"><div class="swiper-wrapper" style="transform: translate3d(-945px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="1" style="width: 315px;"><img src="./resources/images/demo/20161012102258795.jpg" draggable="false"></div><div class="swiper-slide" data-swiper-slide-index="0" style="width: 315px;"><img src="./resources/images/demo/20161012102256315.jpg" draggable="false"></div><div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" style="width: 315px;"><img src="./resources/images/demo/20161012102258795.jpg" draggable="false"></div><div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" style="width: 315px;"><img src="./resources/images/demo/20161012102256315.jpg" draggable="false"></div></div><div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div></div></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort" data-field-type="uf-image" data-col="3" data-ads="0" draggable="false"><div class="field-html"><div class="clearfix"><a data-uf-href="http://xxxxx/Mobile/Coupon/Detail/a24ed5ca-6094-4670-b69a-0384ccf0ec27?sid=912d60ea-ffcd-4c98-b1d3-39f2d57b44cd" style="display:block;float:left;width:33.333333333333336%;" draggable="false"><img src="./resources/images/demo/20161012102317718.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></a><a data-uf-href="http://xxxxx/Mobile/Coupon/Detail/a24ed5ca-6094-4670-b69a-0384ccf0ec27?sid=912d60ea-ffcd-4c98-b1d3-39f2d57b44cd" style="display:block;float:left;width:33.333333333333336%;" draggable="false"><img src="./resources/images/demo/20161012102322710.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></a><a data-uf-href="http://xxxxx/Mobile/Coupon/Detail/a24ed5ca-6094-4670-b69a-0384ccf0ec27?sid=912d60ea-ffcd-4c98-b1d3-39f2d57b44cd" style="display:block;float:left;width:33.333333333333336%;" draggable="false"><img src="./resources/images/demo/20161012102324816.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></a></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort" data-field-type="uf-image" data-col="4" data-ads="0" draggable="false"><div class="field-html"><div class="clearfix"><div style="float:left;width:25%;"><img src="./resources/images/demo/20161012102413597.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></div><div style="float:left;width:25%;"><img src="./resources/images/demo/20161012102416983.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></div><div style="float:left;width:25%;"><img src="./resources/images/demo/20161012102419057.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></div><div style="float:left;width:25%;"><img src="./resources/images/demo/20161012102421865.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></div></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort" data-field-type="uf-image" data-col="1" data-ads="0" draggable="false"><div class="field-html"><div class="clearfix"><div style="float:left;width:100%;"><img src="./resources/images/demo/20161012102448073.jpg" style="display:block;border-width:0px;width:100%;"></div></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort" data-field-type="uf-image" data-col="1" data-ads="0" draggable="false"><div class="field-html"><div class="clearfix"><a data-uf-href="http://xxxxx/xxx/Detail/9d606225-3561-4a9c-a050-796bd4b5745b?sid=912d60ea-ffcd-4c98-b1d3-39f2d57b44cd" style="display:block;float:left;width:100%;" draggable="false"><img src="./resources/images/demo/20161012102500242.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></a></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort" data-field-type="uf-image" data-col="1" data-ads="0" draggable="false"><div class="field-html"><div class="clearfix"><div style="float:left;width:100%;"><img src="./resources/images/demo/20161012102548180.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></div></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort" data-field-type="uf-imgext" data-percent="60" data-col="2" draggable="false"><div class="field-html"><div class="clearfix"><div class="clearfix" style="width:60%;float:left;"><img src="./resources/images/demo/20161012103750774.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></div><div class="clearfix" style="width:40%;float:left;"><div style="width:100%;height:50%;overflow:hidden;"><img src="./resources/images/demo/20161012103753613.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></div><div style="width:100%;height:50%;overflow:hidden;"><img src="./resources/images/demo/20161012103756156.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></div></div></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort active-sort" data-field-type="uf-image" data-col="1" data-ads="0" draggable="false"><div class="field-html"><div class="clearfix"><div style="float:left;width:100%;"><img src="./resources/images/demo/20161012103814111.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></div></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort" data-field-type="uf-product" draggable="false"><div class="field-html"><div class="clearfix"><div class="good-col-50"><div uf-onclick="window.location.href='/xxx/Detail/515a159e-512d-4407-9c79-1822951029c7?sid='+Url.get('sid');" class="goodlist"><div class="pdtimg"><img src="./resources/images/demo/p.jpg" data-code="6M5293" data-pid="515a159e-512d-4407-9c79-1822951029c7"></div><div class="pdtinfo"><div class="title">时尚耐穿舒适款针织衫</div><label class="price"><span>￥</span>79</label></div></div></div><div class="good-col-50"><div uf-onclick="window.location.href='/xxx/Detail/a1364b97-144e-4225-b49c-e7438d0acd9f?sid='+Url.get('sid');" class="goodlist"><div class="pdtimg"><img src="./resources/images/demo/p.jpg" data-code="6J1264" data-pid="a1364b97-144e-4225-b49c-e7438d0acd9f"></div><div class="pdtinfo"><div class="title">拒绝臃肿修身立领百搭棉服</div><label class="price"><span>￥</span>229</label></div></div></div></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort" data-field-type="uf-product" draggable="false"><div class="field-html"><div class="clearfix"><div class="good-col-50"><div uf-onclick="window.location.href='/xxx/Detail/093033f8-6ecd-4c9e-9a2b-f1a1d8d91ad2?sid='+Url.get('sid');" class="goodlist"><div class="pdtimg"><img src="./resources/images/demo/p.jpg" data-code="6M5337" data-pid="093033f8-6ecd-4c9e-9a2b-f1a1d8d91ad2"></div><div class="pdtinfo"><div class="title">撞色时尚短款拼色针织衫</div><label class="price"><span>￥</span>69</label></div></div></div><div class="good-col-50"><div uf-onclick="window.location.href='/xxx/Detail/3fec56b2-c651-4007-b9fa-890ab88dd501?sid='+Url.get('sid');" class="goodlist"><div class="pdtimg"><img src="./resources/images/demo/p.jpg" data-code="6J1263" data-pid="3fec56b2-c651-4007-b9fa-890ab88dd501"></div><div class="pdtinfo"><div class="title">针梭拼接抽绳连帽休闲棉服</div><label class="price"><span>￥</span>269</label></div></div></div></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort" data-field-type="uf-image" data-col="1" data-ads="0" draggable="false"><div class="field-html"><div class="clearfix"><div style="float:left;width:100%;"><img src="./resources/images/demo/20161012103915856.jpg" style="display:block;border-width:0px;width:100%;" draggable="false"></div></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div><div class="ufm-sort" data-field-type="uf-richtext" draggable="false"><div class="field-html"><div class="clearfix"><p style="text-align: left;"><span style="color: rgb(192, 0, 0);">以上内容是通过页面设计器设计而来的</span></p></div></div><div class="actions"><div class="action delete">移除</div><div class="action edit">编辑</div></div></div>
+                        </div>
+                    </div>
+                    <div class="app-modal clearfix" style="padding: 14px 14px 4px 14px; background: #F4F6FC;border-top:1px solid #e5e5e5;margin-top:14px;">
+                        <ul>
+                            <li>
+                                <a class="uf-new-field" data-field-type="uf-line">
+                                    辅助<br>分割线
+                                </a>
+                            </li>
+                            <li>
+                                <a class="uf-new-field" data-field-type="uf-blank">
+                                    空白<br>间隔
+                                </a>
+                            </li>
+                            <li>
+                                <a class="uf-new-field" data-field-type="uf-image">
+                                    图片<br>导航
+                                </a>
+                            </li>
+                            <li>
+                                <a class="uf-new-field" data-field-type="uf-imgext">
+                                    图片<br>魔方
+                                </a>
+                            </li>
+                            <li>
+                                <a class="uf-new-field" data-field-type="uf-product">
+                                    商品<br>活动
+                                </a>
+                            </li>
+                            <li>
+                                <a class="uf-new-field" data-field-type="uf-richtext">
+                                    富文本
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--编辑部件-->
+                <div id="widgetEditWin" class="uf-dropdown uf-dropdown-tip uf-dropdown-relative uf-dropdown-open" style="z-index: 10;width:500px;">
+                    <div class="uf-dropdown-panel" style="max-width:900px;">
+                        <h3 class="ufm-edit-title"><i class="fa fa-pencil"></i>  编辑小部件 <span>&times;</span></h3>
+                        <input type="hidden" id="curFieldType" />
+                        <form id="widgetEditForm" class="form-horizontal" role="form">
+                        </form>
+                        <div class="col-sm-offset-3" style="margin-top:20px;text-align:right;">
+                            <button type="button" class="btn btn-success btn-sm" onclick="applyWidgetHtml()"><i class="fa fa-save"></i> 应用</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--推广链接-->
+<div id="previewWin" class="winmodule" style="display:none;padding:10px;">
+    <div>
+        <div style="">
+            <div class="col-xs-4">微信服务号：</div>
+            <div class="col-xs-4"><select name="SId" class="form-control input-sm">
+        <option value="932d60ea-ffcd-4c98-b1d3-39f2d57a44cd">云极科技</option>
+</select>
+</div>
+        </div>
+        <br /><br />
+        <div id="_urlQRCode" style="text-align:center;padding:20px;">
+        </div>
+        <p id="_urlDetail"></p>
+    </div>
+</div>
+<script src="./resources/js/sortable/Sortable.min.js"></script>
+<script src="./resources/js/swiper.min.js"></script>
+<script src="./resources/js/ueditor/ueditor.config.js"></script>
+<script src="./resources/js/ueditor/ueditor.all.min.js?v=1"></script>
+<script src="./resources/js/ueditor/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript">
+    var sorter;
+    $(function () {
+        if (sorter != null) {
+            sorter.destroy();
+        }
+        var el = document.getElementById('sortable');
+        sorter = new Sortable(el, {
+            animation: 150,
+            draggable: ".ufm-sort",
+            onStart: function (event, ui) {
+                hideWidget();
+            }
+        });
+        reInitEvent();
+        //预览推广链接
+        $("select[name='SId']").change(function () {
+            showVisitLink();
+        });
+        //主要事件
+        $("#widgetEditWin .ufm-edit-title span").click(function () {
+            hideWidget();
+        })
+        $("a.uf-new-field").click(function () {
+            var tempDiv = "";
+            var fieldType = $(this).attr("data-field-type");
+            if (fieldType == "uf-line") {
+                tempDiv = '<div class="ufm-sort" data-field-type="' + fieldType + '" data-margin="10px 0px 10px 0px" data-border="1px solid #dedede">'
+                            + '<div class="field-html">'
+                                + '<div style="margin:10px 6px 10px 6px;border-bottom:1px solid #dedede;height:1px;"></div>'
+                            + '</div>';
+            } else if (fieldType == "uf-blank") {
+                tempDiv = '<div class="ufm-sort" data-field-type="' + fieldType + '" data-height="40px" data-background-color="#fbf9fe">'
+                            + '<div class="field-html">'
+                                + '<div style="height:40px;background-color:#fbf9fe;"></div>'
+                            + '</div>';
+            } else if (fieldType == "uf-image") {
+                tempDiv = '<div class="ufm-sort" data-field-type="' + fieldType + '" data-col="1" data-ads="0">'
+                            + '<div class="field-html">'
+                                + '<div class="clearfix"><a style="display:block;float:left;width:100%;"><img src="./resources/images/pageDesign/field-image.jpg" style="display:block;border-width:0px;width:100%;"/></a></div>'
+                            + '</div>';
+            } else if (fieldType == "uf-imgext") {
+                tempDiv = '<div class="ufm-sort" data-field-type="' + fieldType + '" data-percent="60" data-col="2">'
+                            + '<div class="field-html">'
+                                + '<div class="clearfix"><a style="display:block;float:left;width:100%;"><img src="./resources/images/pageDesign/field-imgext.jpg" style="display:block;border-width:0px;width:100%;"/></a></div>'
+                            + '</div>';
+            } else if (fieldType == "uf-product") {
+                tempDiv = '<div class="ufm-sort" data-field-type="' + fieldType + '">'
+                            + '<div class="field-html">'
+                                + '<div class="clearfix"><a style="display:block;float:left;width:100%;"><img src="./resources/images/pageDesign/field-product.jpg" style="display:block;border-width:0px;width:100%;"/></a></div>'
+                            + '</div>';
+            } else if (fieldType == "uf-richtext") {
+                tempDiv = '<div class="ufm-sort" data-field-type="' + fieldType + '">'
+                            + '<div class="field-html">'
+                                + '<div class="clearfix">请在编辑本区域内容<br />支持任意的HTML格式</div>'
+                            + '</div>';
+            }
+            if (tempDiv != "") {
+                tempDiv += '<div class="actions">'
+                               + '<div class="action delete">移除</div>'
+                               + '<div class="action edit">编辑</div>'
+                         + '</div></div>';
+                $("#sortable").append(tempDiv);
+                reInitEvent();
+            }
+        });
+    })
+    var ue;
+    //富文本编辑器
+    function reInitRichText(htmlData) {
+        $("#widgetEditWin").css("width", "800px");
+        if (ue != undefined) {
+            ue.destroy();
+        }
+        setTimeout(function () {
+            ue=UE.getEditor('richTextArea', {
+                autoHeightEnabled: false,
+            });
+            ue.ready(function () {
+                ue.setContent(htmlData);
+            });
+        }, 200);
+    }
+    //初始化轮番图
+    function reInitAdsImg() {
+        $(".swiper-container").swiper({
+            loop: true,
+            autoplay: 3000
+        });
+    }
+    //初始化按钮事件
+    function reInitEvent() {
+        hideWidget();
+        $(".ufm-sort").unbind("click");
+        $(".ufm-sort").click(function () {
+            $(".ufm-sort").removeClass("active-sort");
+            $(this).addClass("active-sort");
+            showWidgetEditWin($(this));
+        });
+        $(".actions .action").unbind("click");
+        $(".actions .action.delete").click(function () {
+            $(this).parent().parent().remove();
+            hideWidget();
+        });
+    }
+    //显示编辑框的时候
+    function showWidgetEditWin(trigger) {
+        //解决IE Bug
+        var left = trigger.position().left + 290;
+        var top = trigger.position().top + trigger.outerHeight(true);
+        $("#widgetEditWin").css({ "left": left + "px", "top": top + "px" });
+        var fieldType = trigger.attr("data-field-type");
+        //构造编辑框
+        $("#widgetEditWin").css("width", "500px");
+        var tempForm = "";
+        $("#curFieldType").val(fieldType);
+        if (fieldType == "uf-line") {
+            tempForm = '<div class="form-group">'
+                         + '<label class="col-sm-2 control-label">线条</label>'
+                            + '<div class="col-sm-4">'
+                                + '<select class="form-control" name="lineType"><option value="solid">实线</option><option value="dashed">虚线</option></select>'
+                            + '</div>'
+                            + '<label class="col-sm-2 control-label">宽度(px)</label>'
+                            + '<div class="col-sm-3">'
+                                + '<input class="form-control" name="lineWidth" type="number" value="1" min="1" max="10" />'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-2 control-label">四个边距</label>'
+                            + '<div class="col-sm-2">'
+                                + '上(px)<input class="form-control" name="lineMarginTop" type="number" value="10" />'
+                            + '</div>'
+                            + '<div class="col-sm-2">'
+                                + '右(px)<input class="form-control" name="lineMarginRight" type="number" value="0" />'
+                            + '</div>'
+                            + '<div class="col-sm-2">'
+                                + '下(px)<input class="form-control" name="lineMarginBottom" type="number" value="10" />'
+                            + '</div>'
+                            + '<div class="col-sm-2">'
+                                + '左(px)<input class="form-control" name="lineMarginLeft" type="number" value="0" />'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-2 control-label">颜色</label>'
+                            + '<div class="col-sm-4">'
+                                + '<input class="form-control" name="lineColor" value="" placeholder="形如：#efefef" />'
+                            + '</div>'
+                        + '</div>';
+            $("#widgetEditForm").html(tempForm);
+            //赋值
+            var tempMargin = trigger.attr("data-margin").split(" ");
+            var tempBorder = trigger.attr("data-border").split(" ");
+            if (tempMargin.length > 0)
+                $("#widgetEditForm input[name='lineMarginTop']").val(tempMargin[0].replace("px", ""));
+            if (tempMargin.length > 1)
+                $("#widgetEditForm input[name='lineMarginRight']").val(tempMargin[1].replace("px", ""));
+            if (tempMargin.length > 2)
+                $("#widgetEditForm input[name='lineMarginBottom']").val(tempMargin[2].replace("px", ""));
+            if (tempMargin.length > 3)
+                $("#widgetEditForm input[name='lineMarginLeft']").val(tempMargin[3].replace("px", ""));
+            if (tempBorder.length > 0)
+                $("#widgetEditForm input[name='lineWidth']").val(tempBorder[0].replace("px", ""));
+            if (tempBorder.length > 1)
+                $("#widgetEditForm select[name='lineType']").val(tempBorder[1]);
+            if (tempBorder.length > 2)
+                $("#widgetEditForm input[name='lineColor']").val(tempBorder[2]);
+        } else if (fieldType == "uf-blank") {
+            tempForm = '<div class="form-group">'
+                          + '<label class="col-sm-2 control-label">高度(px)</label>'
+                            + '<div class="col-sm-3">'
+                                + '<input class="form-control" name="blankHeight" type="number" value="1" min="1" max="500" />'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-2 control-label">背景颜色</label>'
+                            + '<div class="col-sm-4">'
+                                + '<input class="form-control" name="blankColor" value="" placeholder="形如：#efefef" />'
+                            + '</div>'
+                        + '</div>';
+            $("#widgetEditForm").html(tempForm);
+            var height = trigger.attr("data-height");
+            var bgcolor = trigger.attr("data-background-color");
+            $("#widgetEditForm input[name='blankHeight']").val(height.replace("px", ""));
+            $("#widgetEditForm input[name='blankColor']").val(bgcolor);
+        } else if (fieldType == "uf-image") {
+            tempForm = '<p style="color:#f66;">图片数量可自定义，程序会按照图片数量按照百分比等分横排，整幅图片建议宽度800px,然后按照横排数量切成等宽度的小图。</p>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-2 control-label">图片数量</label>'
+                            + '<div class="col-sm-10 radio">'
+                                + '<label><input type="radio" name="imageAmount" value="1" checked >1 &emsp;</label>'
+                                + '<label><input type="radio" name="imageAmount" value="2" >2 &emsp;</label>'
+                                + '<label><input type="radio" name="imageAmount" value="3">3 &emsp;</label>'
+                                + '<label><input type="radio" name="imageAmount" value="4">4 &emsp;</label>'
+                                + '<label><input type="radio" name="imageAmount" value="5">5 &emsp;</label>'
+                                + '<label><input type="radio" name="imageAmount" value="6">6 &emsp;</label>'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-2 control-label">轮番广告</label>'
+                            + '<div class="col-sm-10 radio">'
+                                + '<label><input type="radio" name="isImgAds" value="0" checked >否 &emsp;</label>'
+                                + '<label><input type="radio" name="isImgAds" value="1" >是 &emsp;</label>'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-2 control-label">上传图片</label>'
+                            + '<div class="col-sm-10">'
+                                + '<div class="col-sm-12 ufm-edit-uploader">'
+                                    + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="图片链接地址,http://" value="" />'
+                                + '</div>'
+                                + '<div class="col-sm-12 ufm-edit-uploader" style="display:none;">'
+                                    + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="图片链接地址,http://" value="" />'
+                                + '</div>'
+                                + '<div class="col-sm-12 ufm-edit-uploader" style="display:none;">'
+                                    + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="图片链接地址,http://" value="" />'
+                                + '</div>'
+                                + '<div class="col-sm-12 ufm-edit-uploader" style="display:none;">'
+                                    + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="图片链接地址,http://" value="" />'
+                                + '</div>'
+                                + '<div class="col-sm-12 ufm-edit-uploader" style="display:none;">'
+                                    + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="图片链接地址,http://" value="" />'
+                                + '</div>'
+                                + '<div class="col-sm-12 ufm-edit-uploader" style="display:none;">'
+                                    + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="图片链接地址,http://" value="" />'
+                                + '</div>'
+                            + '</div>'
+                        + '</div>';
+            $("#widgetEditForm").html(tempForm);
+            var imgCol = trigger.attr("data-col");
+            $("#widgetEditForm input:radio[name='imageAmount'][value=" + imgCol + "]").attr("checked", true);
+            $("#widgetEditForm input:radio[name='isImgAds'][value=" + trigger.attr("data-ads") + "]").attr("checked", true);
+            reInitImgUploader(0);
+            var tempImages = trigger.find("img");
+            for (var i = 0; i < imgCol; i++) {
+                var tempImgUpload = $($("#widgetEditForm .ufm-edit-uploader")[i]);
+                var tempImgSrc = $(tempImages[i]).attr("src");
+                if (tempImgSrc == "./resources/images/pageDesign/field-image.jpg")
+                    tempImgSrc = "./resources/images/add.jpg";
+                tempImgUpload.find("img").attr("src", tempImgSrc);
+                tempImgUpload.find("input").val($(tempImages[i]).parent().attr("data-uf-href"));
+                tempImgUpload.show();
+            }
+        } else if (fieldType == "uf-imgext") {
+            tempForm = '<p style="color:#f66;">左侧图片可设置占整个横排宽度的百分比；右侧图片个数可自定义，程序会均分高度；整幅图片建议宽度800px，美工设计图的时候需要事先规划好百分比，然后对应坑位裁图。</p>'
+                       + '<div class="form-group">'
+                            + '<label class="col-sm-2 control-label">左图占比</label>'
+                            + '<div class="col-sm-3">'
+                                + '<input type="number" name="imgWidthPercent" class="form-control" min="2" max="98" value="60" placeholder="左图片占比（%）" />'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-2 control-label">右侧图</label>'
+                            + '<div class="col-sm-10 radio">'
+                                + '<label><input type="radio" name="imageAmount" value="1" checked>1张 &emsp;</label>'
+                                + '<label><input type="radio" name="imageAmount" value="2">2张 &emsp;</label>'
+                                + '<label><input type="radio" name="imageAmount" value="3">3张 &emsp;</label>'
+                                + '<label><input type="radio" name="imageAmount" value="4">4张</label>'
+                        + '</div>'
+                    + '</div>'
+                    + '<div class="form-group">'
+                        + '<label class="col-sm-2 control-label">上传图片</label>'
+                        + '<div class="col-sm-10">'
+                            + '<div class="col-sm-12 ufm-edit-uploader">'
+                                + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="左图链接,http://" value="" />'
+                            + '</div>'
+                            + '<div class="col-sm-12 ufm-edit-uploader">'
+                                + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="右图1链接,http://" value="" />'
+                            + '</div>'
+                            + '<div class="col-sm-12 ufm-edit-uploader" style="display:none;">'
+                                + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="右图2链接,http://" value="" />'
+                            + '</div>'
+                            + '<div class="col-sm-12 ufm-edit-uploader" style="display:none;">'
+                                + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="右图3链接,http://" value="" />'
+                            + '</div>'
+                            + '<div class="col-sm-12 ufm-edit-uploader" style="display:none;">'
+                                + '<img src="./resources/images/add.jpg" /><input type="text" class="form-control" placeholder="右图4链接,http://" value="" />'
+                            + '</div>'
+                        + '</div>'
+                    + '</div>';
+            $("#widgetEditForm").html(tempForm);
+            var imgCol = trigger.attr("data-col");
+            $("#widgetEditForm input:radio[name='imageAmount'][value=" + imgCol + "]").attr("checked", true);
+            $("#widgetEditForm input[name='imgWidthPercent']").val(trigger.attr("data-percent"));
+            reInitImgUploader(1);
+            var tempImages = trigger.find("img");
+            imgCol = parseInt(imgCol) + 1;
+            for (var i = 0; i < imgCol; i++) {
+                var tempImgUpload = $($("#widgetEditForm .ufm-edit-uploader")[i]);
+                var tempImgSrc = $(tempImages[i]).attr("src");
+                if (tempImgSrc == "./resources/images/pageDesign/field-imgext.jpg")
+                    tempImgSrc = "./resources/images/add.jpg";
+                tempImgUpload.find("img").attr("src", tempImgSrc);
+                tempImgUpload.find("input").val($(tempImages[i]).parent().attr("data-uf-href"));
+                tempImgUpload.show();
+            }
+        } else if (fieldType == "uf-product") {
+            tempForm = '<p style="color:#f66;">商品列表，输入款号，可以自动获取该商品的图片、标题、价格，可根据具体情况再修改，每行最多两个商品，若很多商品，请多次添加小部件。</p>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-2 control-label">产品编码</label>'
+                            + '<div class="col-sm-9">'
+                                + '<div class="input-group">'
+                                    + '<input type="text" name="pdtCode1" placeholder="产品编码，非SKU编码" class="form-control">'
+                                    + '<span class="input-group-btn">'
+                                        + '<button class="btn btn-default" type="button" onclick="loadPdtInfo(1)">加载产品</button>'
+                                    + '</span>'
+                                + '</div>'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-4 control-label ufm-edit-uploader"><img id="pdtImg1" src="./resources/images/pageDesign/pdt.jpg" /></label>'
+                            + '<div class="col-sm-7">'
+                                + '<input type="text" name="pdtName1" class="form-control" placeholder="产品名称" value="" />'
+                                + '<input type="number" name="pdtPrice1" class="form-control" placeholder="产品价格" value="" min="1" />'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-2 control-label">产品编码</label>'
+                            + '<div class="col-sm-9">'
+                                + '<div class="input-group">'
+                                    + '<input type="text" name="pdtCode2" placeholder="产品编码，非SKU编码" class="form-control">'
+                                    + '<span class="input-group-btn">'
+                                        + '<button class="btn btn-default" type="button" onclick="loadPdtInfo(2)">加载产品</button>'
+                                    + '</span>'
+                                + '</div>'
+                            + '</div>'
+                        + '</div>'
+                        + '<div class="form-group">'
+                            + '<label class="col-sm-4 control-label ufm-edit-uploader"><img id="pdtImg2" src="./resources/images/pageDesign/pdt.jpg" /></label>'
+                            + '<div class="col-sm-7">'
+                                + '<input type="text" name="pdtName2" class="form-control" placeholder="产品名称" value="" />'
+                                + '<input type="number" name="pdtPrice2" class="form-control" placeholder="产品价格" value="" min="1" />'
+                            + '</div>'
+                        + '</div>';
+            $("#widgetEditForm").html(tempForm);
+            var tempLen = trigger.find(".pdtinfo .title").length;
+            for (var ti = 0; ti < tempLen; ti++) {
+                $("#widgetEditForm input[name='pdtCode" + (ti + 1) + "']").val($(trigger.find(".pdtimg img")[ti]).attr("data-code"));
+                $("#widgetEditForm input[name='pdtName" + (ti + 1) + "']").val($(trigger.find(".pdtinfo .title")[ti]).html());
+                $("#widgetEditForm input[name='pdtPrice" + (ti + 1) + "']").val($(trigger.find(".pdtinfo .price")[ti]).text().replace("￥", ""));
+                $("#widgetEditForm #pdtImg" + (ti + 1)).attr("src", $(trigger.find(".pdtimg img")[ti]).attr("src"));
+                $("#widgetEditForm #pdtImg" + (ti + 1)).attr("data-code", $(trigger.find(".pdtimg img")[ti]).attr("data-code"));
+                $("#widgetEditForm #pdtImg" + (ti + 1)).attr("data-pid", $(trigger.find(".pdtimg img")[ti]).attr("data-pid"));
+            }
+        } else if (fieldType == "uf-richtext") {
+            tempForm = '<div class="form-group">'
+                        + '<div class="col-sm-12">'
+                            + '<script id="richTextArea" name="content" type="text/plain"><\/script>'
+                        + '</div>'
+                    + '</div>';
+            $("#widgetEditForm").html(tempForm);
+            reInitRichText(trigger.find(".field-html>.clearfix").html());
+        }
+        showWidget();
+    }
+    function showWidget() {
+        $("#widgetEditWin").show();
+    }
+    function hideWidget() {
+        $("#widgetEditWin").hide();
+    }
+    //小部件图片上传
+    function reInitImgUploader() {
+        $("#widgetEditForm input:radio[name=imageAmount]").change(function () {
+            $("#widgetEditForm .ufm-edit-uploader").hide();
+            var imgLen = $('#widgetEditForm input:radio[name=imageAmount]:checked').val();
+            imgLen = parseInt(imgLen) + ($("#curFieldType").val() == "uf-imgext" ? 1 : 0);
+            for (var i = 0; i < imgLen; i++) {
+                $($("#widgetEditForm .ufm-edit-uploader")[i]).show();
+            }
+        });
+        //初始化上传
+        $("#widgetEditForm .ufm-edit-uploader img").each(function () {
+            var ths = this;
+            new AjaxUpload($(ths), {
+                action: '/Admin/Common/UploadImg?path=PageDesign',
+                name: 'imgfile',
+                responseType: 'json',
+                onSubmit: function (file, ext) {
+                    if (!(ext && /^(png|jpg)$/.test(ext))) {
+                        Msg.show('仅支持jpg,png格式的图片', 1);
+                        return false;
+                    }
+                    Msg.show("上传中,请稍候...", 3);
+                },
+                onComplete: function (file, rst) {
+                    Msg.hide();
+                    if (rst.result == 0) {
+                        $(ths).attr("src", "./resources/images/demo/" + rst.msg);
+                    } else {
+                        Msg.show(rst.msg, rst.result);
+                    }
+                }
+            });
+        });
+    }
+    function loadPdtInfo(idx) {
+        var tempCode = $("#widgetEditForm input[name='pdtCode" + idx + "']").val();
+        if (tempCode == undefined || tempCode == null || tempCode == "") {
+            Msg.show("请输入产品编码进行查询", 9);
+            return;
+        }
+        //获取商品信息
+        Msg.show("查询中...", 3);
+        $.post("/Admin/Product/GetByCode/" + tempCode, function (rst) {
+            Msg.hide();
+            if (rst.result == 0) {
+                $("#widgetEditForm input[name='pdtName" + idx + "']").val(rst.data.Name);
+                $("#widgetEditForm input[name='pdtPrice" + idx + "']").val(rst.data.Price);
+                $("#widgetEditForm #pdtImg" + idx).attr("src", "./resources/images/demo/" + rst.data.ImgUrl);
+                $("#widgetEditForm #pdtImg" + idx).attr("data-code", rst.data.Code);
+                $("#widgetEditForm #pdtImg" + idx).attr("data-pid", rst.data.Id);
+            } else {
+                Msg.show(rst.msg, rst.result);
+            }
+        });
+    }
+    //应用HTML
+    function applyWidgetHtml() {
+        //获取当前的小部件
+        var curWidget = $(".ufm-sort.active-sort");
+        if (curWidget == null || curWidget.attr("data-field-type") != $("#curFieldType").val()) {
+            Msg.show("当前编辑的小部件和选中的小部件类型不一致，请重新选择后编辑！", 1);
+            return;
+        }
+        var fieldType = $("#curFieldType").val();
+        if (fieldType == "uf-line") {
+            curWidget.attr("data-margin", $("#widgetEditForm input[name='lineMarginTop']").val() + "px "
+                                     + $("#widgetEditForm input[name='lineMarginRight']").val() + "px "
+                                     + $("#widgetEditForm input[name='lineMarginBottom']").val() + "px "
+                                     + $("#widgetEditForm input[name='lineMarginLeft']").val() + "px");
+            curWidget.attr("data-border", $("#widgetEditForm input[name='lineWidth']").val() + "px "
+                                     + $("#widgetEditForm select[name='lineType']").val() + " "
+                                     + $("#widgetEditForm input[name='lineColor']").val());
+            $(curWidget).find(".field-html").html('<div style="margin:' + curWidget.attr("data-margin") + ';border-bottom:' + curWidget.attr("data-border") + ';height:' + $("#widgetEditForm input[name='lineWidth']").val() + 'px;"></div>');
+        } else if (fieldType == "uf-blank") {
+            curWidget.attr("data-height", $("#widgetEditForm input[name='blankHeight']").val() + "px");
+            curWidget.attr("data-background-color", $("#widgetEditForm input[name='blankColor']").val());
+            $(curWidget).find(".field-html").html('<div style="height:' + curWidget.attr("data-height") + ';background-color:' + curWidget.attr("data-background-color") + ';"></div>');
+        } else if (fieldType == "uf-image") {
+            //图片数量
+            var isAds = $("#widgetEditForm input:radio[name='isImgAds']:checked").val();
+            var imgLen = $('#widgetEditForm input:radio[name=imageAmount]:checked').val();
+            curWidget.attr("data-col", imgLen);
+            curWidget.attr("data-ads", isAds);
+            //设置等分
+            var tempPercent = 100.0 / imgLen;
+            var adsImgHtml = '<div class="swiper-container"><div class="swiper-wrapper">';
+            var colImgHtml = "";
+            for (var i = 0; i < imgLen; i++) {
+                var imgSrc = $($("#widgetEditForm .ufm-edit-uploader")[i]).find("img").attr("src");
+                var linkUrl = $($("#widgetEditForm .ufm-edit-uploader")[i]).find("input").val();
+                if (linkUrl == null || linkUrl == "") {
+                    if (isAds == 0) {
+                        colImgHtml += '<div style="float:left;width:' + tempPercent + '%;"><img src="' + imgSrc + '" style="display:block;border-width:0px;width:100%;"/></div>';
+                    } else {
+                        adsImgHtml += '<div class="swiper-slide"><img src="' + imgSrc + '" /></div>';
+                    }
+                } else {
+                    if (isAds == 0) {
+                        colImgHtml += '<a data-uf-href="' + linkUrl + '" style="display:block;float:left;width:' + tempPercent + '%;"><img src="' + imgSrc + '" style="display:block;border-width:0px;width:100%;"/></a>';
+                    } else {
+                        adsImgHtml += '<div class="swiper-slide"><a data-uf-href="' + linkUrl + '"><img src="' + imgSrc + '" /></a></div>';
+                    }
+                }
+            }
+            $(curWidget).find(".field-html").html('<div class="clearfix">' + (isAds == 0 ? colImgHtml : (adsImgHtml + '</div><div class="swiper-pagination"></div></div>')) + '</div>');
+            if (isAds == 1) {
+                reInitAdsImg();
+            }
+        } else if (fieldType == "uf-imgext") {
+            var imgLen = $('#widgetEditForm input:radio[name=imageAmount]:checked').val();
+            var widthPercent = $("#widgetEditForm input[name='imgWidthPercent']").val();
+            curWidget.attr("data-col", imgLen);
+            curWidget.attr("data-percent", widthPercent);
+            //设置等分
+            var verticalPercent = 100.0 / imgLen;
+            var tempLeftDiv = '<div class="clearfix" style="width:' + widthPercent + '%;float:left;">';
+            var tempRightDiv = '<div class="clearfix" style="width:' + (100 - widthPercent) + '%;float:left;">';
+            for (var i = 0; i < (parseInt(imgLen) + 1) ; i++) {
+                var imgSrc = $($("#widgetEditForm .ufm-edit-uploader")[i]).find("img").attr("src");
+                var linkUrl = $($("#widgetEditForm .ufm-edit-uploader")[i]).find("input").val();
+                if (linkUrl == null || linkUrl == "") {
+                    if (i == 0) {
+                        tempLeftDiv += '<img src="' + imgSrc + '" style="display:block;border-width:0px;width:100%;"/></div>';
+                    } else {
+                        tempRightDiv += '<div style="width:100%;height:' + verticalPercent + '%;overflow:hidden;"><img src="' + imgSrc + '" style="display:block;border-width:0px;width:100%;"/></div>';
+                    }
+                } else {
+                    if (i == 0) {
+                        tempLeftDiv += '<a data-uf-href="' + linkUrl + '"><img src="' + imgSrc + '" style="display:block;border-width:0px;width:100%;"/></a></div>';
+                    } else {
+                        tempRightDiv += '<div style="width:100%;height:' + verticalPercent + '%;overflow:hidden;"><a data-uf-href="' + linkUrl + '"><img src="' + imgSrc + '" style="display:block;border-width:0px;width:100%;"/></a></div>';
+                    }
+                }
+            }
+            $(curWidget).find(".field-html").html('<div class="clearfix">' + tempLeftDiv + tempRightDiv + '</div></div>');
+        } else if (fieldType == "uf-product") {
+            //判断有几个
+            var tlen = 0;
+            var pdtListHtml = "";
+            if ($.trim($("#widgetEditForm input[name='pdtName1']").val()).length > 0) {
+                tlen++;
+            }
+            if ($.trim($("#widgetEditForm input[name='pdtName2']").val()).length > 0) {
+                tlen++;
+            }
+            if (tlen == 0) {
+                Msg.show("请至少添加一个产品！", 9);
+                return;
+            }
+            var widthPercent = 100;
+            if (tlen == 2)
+                widthPercent = 50;
+            if ($.trim($("#widgetEditForm input[name='pdtName1']").val()).length > 0) {
+                pdtListHtml += '<div class="good-col-' + widthPercent + '" '+(widthPercent==100?"style='margin: auto 6px;'":"")+'>'
+                                + '<div uf-onclick="window.location.href=\'/xxx/Detail/' + $("#widgetEditForm #pdtImg1").attr("data-pid") + '?sid=\'+Url.get(\'sid\');" class="goodlist">'
+                                    + '<div class="pdtimg">'
+                                        + '<img src="' + $("#widgetEditForm #pdtImg1").attr("src") + '" data-code="' + $("#widgetEditForm #pdtImg1").attr("data-code") + '" data-pid="' + $("#widgetEditForm #pdtImg1").attr("data-pid") + '" />'
+                                    + '</div>'
+                                    + '<div class="pdtinfo">'
+                                        + '<div class="title">' + $("#widgetEditForm input[name='pdtName1']").val() + '</div>'
+                                        + '<label class="price"><span>￥</span>' + $("#widgetEditForm input[name='pdtPrice1']").val() + '</label>'
+                                    + '</div>'
+                                + '</div>'
+                            + '</div>';
+            }
+            if ($.trim($("#widgetEditForm input[name='pdtName2']").val()).length > 0) {
+                pdtListHtml += '<div class="good-col-' + widthPercent + '" ' + (widthPercent == 100 ? "style='margin: auto 6px;'" : "") + '>'
+                                + '<div uf-onclick="window.location.href=\'/xxx/Detail/' + $("#widgetEditForm #pdtImg2").attr("data-pid") + '?sid=\'+Url.get(\'sid\');" class="goodlist">'
+                                    + '<div class="pdtimg">'
+                                        + '<img src="' + $("#widgetEditForm #pdtImg2").attr("src") + '" data-code="' + $("#widgetEditForm #pdtImg2").attr("data-code") + '" data-pid="' + $("#widgetEditForm #pdtImg2").attr("data-pid") + '" />'
+                                    + '</div>'
+                                    + '<div class="pdtinfo">'
+                                        + '<div class="title">' + $("#widgetEditForm input[name='pdtName2']").val() + '</div>'
+                                        + '<label class="price"><span>￥</span>' + $("#widgetEditForm input[name='pdtPrice2']").val() + '</label>'
+                                    + '</div>'
+                                + '</div>'
+                            + '</div>';
+            }
+            $(curWidget).find(".field-html").html('<div class="clearfix">' + pdtListHtml + '</div>');
+        } else if (fieldType == "uf-richtext") {
+            $(curWidget).find(".field-html").html('<div class="clearfix">' + ue.getContent() + '</div>');
+        }
+        hideWidget();
+    }
+    //按钮操作
+    function savePageDesign() {
+        Msg.show("保存中，请稍后...", 3);
+        var htmlData = $("#sortable").html();
+        $.post("/PageDesign/Post/68c0b98d-dd06-4823-a57b-524473e1aaf3", { htmlData: htmlData }, function (rst) {
+            Msg.hide();
+            Msg.show(rst.msg, rst.result);
+            if (rst.result == 0) {
+                $("#txtPageId").val(rst.data.Id);
+            }
+        });
+    }
+    //按钮操作
+    function publishPageDesign() {
+        Msg.confirm("确认要发布当前页面吗？", function () {
+            Msg.show("发布中，请稍后...", 3);
+            var htmlData = "";
+            $.each($("#sortable .ufm-sort .field-html"), function (idx, item) {
+                htmlData += $(item).html();
+            });
+            $.post("/PageDesign/PublishPage/68c0b98d-dd06-4823-a57b-524473e1aaf3", { htmlData: htmlData }, function (rst) {
+                Msg.hide();
+                Msg.show(rst.msg, rst.result);
+            });
+        });
+    }
+    //显示链接
+    function showVisitLink() {
+        var hostHead = window.location.protocol + "//" + window.location.host;
+        var sid = $("select[name='SId']").val();
+        $("#_urlDetail").html(hostHead + "/Cms/PreviewPage/" + $("#txtPageId").val() + "?sid=" + sid);
+        $("#_urlQRCode").html('<img src="/Common/ShowQrCode?url=' + encodeURIComponent($("#_urlDetail").html()) + '" style="width:220px;" />');
+        Dialog.open("previewWin", 500, 400, "页面预览");
+    }
+</script>
+</div>
+    </div>
+    
+</body>
+</html>
