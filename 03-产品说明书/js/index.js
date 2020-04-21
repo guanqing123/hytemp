@@ -8,7 +8,8 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
         template: `<div class="mui-content">
              <div class="mui-content-padded" style="margin: 15px 5px 0px 5px">
                  <div class="mui-input-row mui-search">
-                     <input type="search" class="mui-input-clear" placeholder="产品型号" @blur="search">
+                     <input type="search" class="mui-input-clear customW" placeholder="产品型号" @blur="search">
+                     <button type="button" >搜索</button>
                  </div>
              </div>
              <ul class="mui-table-view mui-table-view-striped mui-table-view-condensed pull">
@@ -36,10 +37,14 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
              </ul>
              <div v-show="share" id="shadowContainer">
                 <div class="iknow" @click="hideShare"></div>
-            </div>
-            <a class="backTop hide">
+             </div>
+             <a class="backTop hide">
                 <span class="mui-icon mui-icon-arrowup"></span>
-            </a>
+             </a>
+            
+             <div class="mui-zoom-scroller" v-show="showImg" @click="hideImg">
+                <img :src="src" data-preview-lazyload="" style="" class="mui-zoom" @load="loadImage">
+             </div>
         </div>`,
         data: function () {
             return {
@@ -48,7 +53,9 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
                 count: 0,
                 currentPage: 0,
                 sum: 0,
-                condition:''
+                condition:'',
+                src:'',
+                showImg: false
             }
         },
         methods: {
@@ -81,9 +88,9 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
                     }
                 });
             },
-            download: function (wjm) {
+            /*download: function (wjm) {
                 window.location.href = 'download.html?wjm='+ wjm.wjm
-            },
+            },*/
             hideShare: function () {
                 var self = this;
                 self.share = !self.share
@@ -115,42 +122,56 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
                     }
                 });
             },
-            /*download: function (wjm) {
+            download: function (wjm) {
                 var self = this;
-                self.$show('下载中...');
-                fetch(config.testUrl + "/cpsms/download", {
+                if (!self.$isImg(wjm.wjm)) {
+                    var btns = ['否', '下载'];
+                    mui.confirm('非图片格式文件,是否下载?', '温馨提醒', btns, function (e) {
+                        if (e.index == 1) {
+                            window.location.href = 'download.html?wjm='+ wjm.wjm
+                        }
+                    })
+                    return false;
+                }
+                self.$show('图片加载中...');
+                /* fetch(config.testUrl + "/cpsms/d_f", {
                     method: 'post',
                     body: JSON.stringify(wjm),
                     headers: {
                         'Content-Type': 'application/json'
                     }
                 })
-                // .then(res => res.blob().then(blob => {
-                    .then(function (response) {
-                        response.blob().then(function (blob) {
-                            self.$hide();
-                            var filename = wjm.wjm;
-                            if (window.navigator.msSaveOrOpenBlob) {
-                                navigator.msSaveBlob(blob, filename); //兼容ie10
-                            } else {
-                                var a = document.createElement('a');
-
-                                document.body.appendChild(a) //兼容火狐，将a标签添加到body当中
-
-                                var url = window.URL.createObjectURL(blob);   // 获取 blob 本地文件连接 (blob 为纯二进制对象，不能够直接保存到磁盘上)
-                                a.href = url;
-                                a.download = filename;
-                                a.target='_blank'; // a标签增加target属性
-                                a.click();
-                                a.remove(); //移除a标签
-                                window.URL.revokeObjectURL(url);
-                                // window.open(URL.createObjectURL(blob))
-                            }
-                        })
-                    })
-
-                // }));
-            }*/
+                .then(res => res.blob().then(blob => {
+                    debugger
+                    self.$hide();
+                    var filename = wjm.wjm;
+                    if (window.navigator.msSaveOrOpenBlob) {
+                        navigator.msSaveBlob(blob, filename); //兼容ie10
+                    } else {
+                        var a = document.createElement('a');
+                        document.body.appendChild(a) //兼容火狐，将a标签添加到body当中
+                        var url = window.URL.createObjectURL(blob);   // 获取 blob 本地文件连接 (blob 为纯二进制对象，不能够直接保存到磁盘上)
+                        self.src = url;
+                        a.href = url;
+                        a.download = filename;
+                        a.target='_blank'; // a标签增加target属性
+                        a.click();
+                        a.remove(); //移除a标签
+                        window.URL.revokeObjectURL(url);
+                    }
+                }));*/
+                self.src = config.testUrl + '/cpsms/down?fileName=' + wjm.wjm;
+            },
+            loadImage: function () {
+                var self = this;
+                self.showImg = true;
+                self.$hide();
+            },
+            hideImg: function () {
+                var self = this;
+                self.showImg = false;
+                self.src = "";
+            }
         },
         mounted: function () {
             var self = this;

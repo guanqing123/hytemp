@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="x-rim-auto-match" content="none" />
+    <title>@(ViewBag.Title)</title>
+    <link href="~/Scripts/weui/lib/weui.min.css" rel="stylesheet" />
+    <link href="~/Scripts/weui/css/jquery-weui.css" rel="stylesheet" />
+    <link href="~/Scripts/icomoon/style.css" rel="stylesheet" />
+    <script src="~/Scripts/weui/lib/jquery-2.1.4.js"></script>
+    <script src="~/Scripts/weui/js/jquery-weui.min.js"></script>
+    <script src="~/Scripts/weui/lib/fastclick.js"></script>
+    <script src="/Scripts/lazyload/jquery.lazyload.min.js"></script>
+    <!--IOS Masker-->
+    <link href="~/Scripts/IosOverlay/css/iosOverlay.min.css" rel="stylesheet" />
+    <script src="~/Scripts/IosOverlay/js/iosOverlay.min.js"></script>
+    <script src="~/Scripts/MatrixGlobal.js"></script>
+    <!--微信接口-->
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+
+    @RenderSection("head", false)
+</head>
+<body>
+<div class="main">
+    <div class="uf_home">
+        @if (Model != null)
+        {
+        @Html.Raw(Model)
+        }
+    </div>
+    <script src="~/Scripts/weui/js/swiper.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".swiper-container").swiper({
+                loop: true,
+                autoplay: 3000
+            });
+            $(".uf_home img").lazyload({
+                threshold: 800
+            });
+        })
+    </script>
+</div>
+@Html.Partial("~/Areas/Mobile/Views/Shared/_footer.cshtml")
+<div style="height:50px;">&nbsp;</div>
+<script type="text/javascript">
+    $(function () {
+        FastClick.attach(document.body);
+    })
+</script>
+<div style="display:none;"><script src="http://s4.cnzz.com/stat.php?id=1260425046&web_id=1260425046" language="JavaScript"></script></div>
+@*@StackExchange.Profiling.MiniProfiler.RenderIncludes(StackExchange.Profiling.RenderPosition.BottomRight)*@
+</body>
+</html>

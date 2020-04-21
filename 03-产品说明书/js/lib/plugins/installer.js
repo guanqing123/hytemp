@@ -98,6 +98,39 @@ define(['lodash', 'mui'], function (_, mui) {
                 return 1;
             }
         }
+
+        /* 根据文件类型判断是否是图片 */
+        //图片文件的后缀名
+        var imgExt = new Array(".png",".jpg",".jpeg",".bmp",".gif");
+
+        //获取文件名后缀名
+        String.prototype.extension = function(){
+            var ext = null;
+            var name = this.toLowerCase();
+            var i = name.lastIndexOf(".");
+            if(i > -1){
+                var ext = name.substring(i);
+            }
+            return ext;
+        }
+
+        //判断Array中是否包含某个值
+        Array.prototype.contain = function(obj){
+            for(var i=0; i<this.length; i++){
+                if(this[i] === obj)
+                    return true;
+            }
+            return false;
+        };
+
+        //判断是否是图片文件
+        Vue.prototype.$isImg = function (fileName) {
+            var ext = fileName.extension();
+            if (imgExt.contain(ext)) {
+                return true;
+            }
+            return false;
+        }
     }
 
     return Installer
