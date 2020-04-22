@@ -1,0 +1,60 @@
+.btn.btn-primary {
+    background-color: #4381e6;
+    border: 1px solid #4381e6;
+}
+.btn-grey, .btn.btn-danger, .btn.btn-primary, .btn.btn-success, .btn.btn-warning {
+    color: #fff;
+}
+a.btn {
+    height: 28px;
+}
+.btn, a.btn {
+    line-height: 28px;
+}
+.btn {
+    padding: 0 12px;
+    height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #333;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    vertical-align: baseline;
+    margin-top: 1px;
+    margin-bottom: 2px;
+}
+.btn, .btn-default-set {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+a {
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+}
+a {
+    text-decoration: none;
+    color: #000;
+    color: inherit;
+}
+[class*=" gicon-"].white, [class^=gicon-].white {
+    background-image: url(../images/gicon_white.png);
+}
+a.btn i {
+    vertical-align: -2px;
+}
+[class*=" gicon-"], [class^=gicon-] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-right: .3em;
+    line-height: 14px;
+    vertical-align: -2px;
+    background-image: url(../images/gicon_black.png);
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+}
+.gicon-edit {
+    background-position: -96px -72px;
+}
