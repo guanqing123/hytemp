@@ -2,810 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="416e41cd-6a36-45db-87c7-872847d9e4c1" name="Default" comment="完善">
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/bootstrap3-validation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/css/bootstrap-theme.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/css/bootstrap.min14px.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/font-awesome-4.4.0/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/font-awesome-4.4.0/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/font-awesome-4.4.0/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/font-awesome-4.4.0/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/font-awesome-4.4.0/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/font-awesome-4.4.0/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/font-awesome-4.4.0/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/bootbox.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/datetimepicker/datetimepicker.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/datetimepicker/datetimepicker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/dropdown/jquery.dropdown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/dropdown/jquery.dropdown.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/dropdown/jquery.dropdown.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/dropdown/uf.dropdown.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/icheck.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/icheck.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/_all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/aero.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/aero.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/aero@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/blue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/blue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/blue@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/flat.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/flat.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/flat@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/green.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/green.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/green@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/grey.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/grey.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/grey@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/orange.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/orange.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/orange@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/pink.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/pink.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/pink@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/purple.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/purple.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/purple@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/red.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/red.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/red@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/yellow.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/yellow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/flat/yellow@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/futurico/futurico.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/futurico/futurico.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/futurico/futurico@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/_all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/aero.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/blue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/green.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/grey.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/line.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/line.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/line@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/orange.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/pink.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/purple.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/red.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/line/yellow.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/_all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/aero.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/aero.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/aero@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/blue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/blue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/blue@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/green.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/green.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/green@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/grey.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/grey.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/grey@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/minimal.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/minimal.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/minimal@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/orange.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/orange.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/orange@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/pink.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/pink.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/pink@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/purple.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/purple.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/purple@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/red.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/red.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/red@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/yellow.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/yellow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/minimal/yellow@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/polaris/polaris.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/polaris/polaris.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/polaris/polaris@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/_all.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/aero.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/aero.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/aero@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/blue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/blue.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/blue@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/green.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/green.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/green@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/grey.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/grey.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/grey@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/orange.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/orange.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/orange@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/pink.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/pink.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/pink@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/purple.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/purple.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/purple@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/red.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/red.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/red@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/square.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/square.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/square@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/yellow.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/yellow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/iCheck/skins/square/yellow@2x.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/multselect/bootstrap-select.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/multselect/bootstrap-select.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/multselect/bootstrap-select.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/multselect/bootstrap-select.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/slider/css/slider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/slider/js/bootstrap-slider-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/slider/js/bootstrap-slider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/switch/bootstrap-switch.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Bootstrap/plugin/switch/bootstrap-switch.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/DateTimePicker/bootstrap-datepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/DateTimePicker/datepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/GobalHelper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/IosOverlay/css/iosOverlay.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/IosOverlay/css/iosOverlay.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/IosOverlay/images/check.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/IosOverlay/images/cross.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/IosOverlay/js/iosOverlay.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/IosOverlay/js/iosOverlay.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/IosOverlay/js/spin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/IosSlider/jquery.iosslider.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Lodop/LodopFuncs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Lodop/install_lodop32.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Lodop/install_lodop64.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/MatrixGlobal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/MvcPager.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/css/ratchet-theme-android.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/css/ratchet-theme-android.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/css/ratchet-theme-ios.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/css/ratchet-theme-ios.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/css/ratchet.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/css/ratchet.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/fonts/ratchicons.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/fonts/ratchicons.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/fonts/ratchicons.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/fonts/ratchicons.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/js/ratchet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Ratchet/js/ratchet.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/Rating/bootstrap-rating-input.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/SoundManager/soundmanager2-jsmin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/SoundManager/swf/soundmanager2.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/SoundManager/videos/msg.wav" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/css/dataTables.bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/css/jquery.dataTables.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/css/jquery.dataTables.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/css/jquery.dataTables_themeroller.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/images/Sorting icons.psd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/images/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/images/loading-2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/images/sort_asc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/images/sort_asc_disabled.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/images/sort_both.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/images/sort_desc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/images/sort_desc_disabled.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/js/dataTables.bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/js/dataTables.keyTable.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/js/dataTables.tableTools.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/js/jquery.dataTables.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/js/jquery.dataTables.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/datatables/js/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/mCustomScrollbar/jquery.mCustomScrollbar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/dark/bootstrap3-validation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/dark/general.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/dark/jquery.nanoscroller.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/dark/nanoscroller.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/dark/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/light/black.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/light/black.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/light/blue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/light/blue.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/light/default.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/light/red.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/light/red.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UFXUI/themes/light/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/UiStep/step.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/WeixinApi/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/WeixinApi/WeixinApi.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/WeixinApi/demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/address_all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/comment/comment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/comment/continuecomment.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/dialog/dialog.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/dialog/dialog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/display/autorefresh.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/display/fullscreen.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/display/fullscreen.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/display/panel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/display/placeholder.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/display/rulers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/edit/closebrackets.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/edit/closetag.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/edit/continuelist.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/edit/matchbrackets.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/edit/matchtags.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/edit/trailingspace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/fold/brace-fold.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/fold/comment-fold.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/fold/foldcode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/fold/foldgutter.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/fold/foldgutter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/fold/indent-fold.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/fold/markdown-fold.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/fold/xml-fold.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/hint/anyword-hint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/hint/css-hint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/hint/html-hint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/hint/javascript-hint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/hint/show-hint.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/hint/show-hint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/hint/sql-hint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/hint/xml-hint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/lint/coffeescript-lint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/lint/css-lint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/lint/html-lint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/lint/javascript-lint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/lint/json-lint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/lint/lint.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/lint/lint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/lint/yaml-lint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/merge/merge.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/merge/merge.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/mode/loadmode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/mode/multiplex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/mode/multiplex_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/mode/overlay.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/mode/simple.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/runmode/colorize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/runmode/runmode-standalone.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/runmode/runmode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/runmode/runmode.node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/scroll/annotatescrollbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/scroll/scrollpastend.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/scroll/simplescrollbars.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/scroll/simplescrollbars.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/search/jump-to-line.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/search/match-highlighter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/search/matchesonscrollbar.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/search/matchesonscrollbar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/search/search.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/search/searchcursor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/selection/active-line.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/selection/mark-selection.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/selection/selection-pointer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/tern/tern.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/tern/tern.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/tern/worker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/addon/wrap/hardwrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/bin/authors.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/bin/compress" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/bin/lint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/bin/release" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/bin/source-highlight" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/activeline.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/anywordhint.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/bidi.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/btree.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/buffers.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/changemode.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/closebrackets.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/closetag.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/complete.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/emacs.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/folding.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/fullscreen.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/hardwrap.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/html5complete.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/indentwrap.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/lint.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/loadmode.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/marker.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/markselection.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/matchhighlighter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/matchtags.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/merge.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/multiplex.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/mustache.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/panel.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/placeholder.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/preview.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/requirejs.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/resize.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/rulers.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/runmode.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/search.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/simplemode.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/simplescrollbars.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/spanaffectswrapping_shim.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/sublime.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/tern.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/theme.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/trailingspace.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/variableheight.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/vim.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/visibletabs.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/widget.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/demo/xmlcomplete.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/activebookmark.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/compress.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/docs.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/internals.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/manual.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/realworld.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/releases.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/reporting.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/upgrade_v2.2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/upgrade_v3.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/upgrade_v4.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/doc/yinyang.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/keymap/emacs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/keymap/sublime.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/keymap/vim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/lib/codemirror.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/lib/codemirror.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/apl/apl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/apl/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/asciiarmor/asciiarmor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/asciiarmor/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/asn.1/asn.1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/asn.1/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/asterisk/asterisk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/asterisk/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/brainfuck/brainfuck.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/brainfuck/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/clike/clike.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/clike/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/clike/scala.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/clike/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/clojure/clojure.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/clojure/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/cmake/cmake.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/cmake/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/cobol/cobol.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/cobol/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/coffeescript/coffeescript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/coffeescript/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/commonlisp/commonlisp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/commonlisp/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/crystal/crystal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/crystal/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/css/css.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/css/gss.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/css/gss_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/css/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/css/less.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/css/less_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/css/scss.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/css/scss_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/css/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/cypher/cypher.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/cypher/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/d/d.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/d/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/dart/dart.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/dart/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/diff/diff.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/diff/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/django/django.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/django/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/dockerfile/dockerfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/dockerfile/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/dtd/dtd.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/dtd/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/dylan/dylan.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/dylan/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/dylan/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ebnf/ebnf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ebnf/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ecl/ecl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ecl/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/eiffel/eiffel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/eiffel/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/elm/elm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/elm/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/erlang/erlang.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/erlang/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/factor/factor.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/factor/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/fcl/fcl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/fcl/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/forth/forth.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/forth/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/fortran/fortran.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/fortran/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/gas/gas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/gas/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/gfm/gfm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/gfm/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/gfm/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/gherkin/gherkin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/gherkin/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/go/go.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/go/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/groovy/groovy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/groovy/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/haml/haml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/haml/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/haml/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/handlebars/handlebars.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/handlebars/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/haskell-literate/haskell-literate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/haskell-literate/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/haskell/haskell.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/haskell/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/haxe/haxe.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/haxe/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/htmlembedded/htmlembedded.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/htmlembedded/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/htmlmixed/htmlmixed.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/htmlmixed/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/http/http.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/http/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/idl/idl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/idl/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/jade/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/jade/jade.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/javascript/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/javascript/javascript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/javascript/json-ld.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/javascript/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/javascript/typescript.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/jinja2/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/jinja2/jinja2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/jsx/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/jsx/jsx.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/jsx/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/julia/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/julia/julia.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/livescript/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/livescript/livescript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/lua/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/lua/lua.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/markdown/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/markdown/markdown.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/markdown/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mathematica/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mathematica/mathematica.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mbox/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mbox/mbox.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/meta.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mirc/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mirc/mirc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mllike/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mllike/mllike.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/modelica/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/modelica/modelica.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mscgen/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mscgen/mscgen.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mscgen/mscgen_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mscgen/msgenny_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mscgen/xu_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mumps/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/mumps/mumps.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/nginx/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/nginx/nginx.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/nsis/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/nsis/nsis.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ntriples/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ntriples/ntriples.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/octave/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/octave/octave.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/oz/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/oz/oz.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/pascal/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/pascal/pascal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/pegjs/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/pegjs/pegjs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/perl/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/perl/perl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/php/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/php/php.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/php/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/pig/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/pig/pig.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/powershell/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/powershell/powershell.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/powershell/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/properties/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/properties/properties.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/protobuf/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/protobuf/protobuf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/puppet/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/puppet/puppet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/python/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/python/python.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/python/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/q/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/q/q.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/r/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/r/r.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/rpm/changes/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/rpm/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/rpm/rpm.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/rst/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/rst/rst.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ruby/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ruby/ruby.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ruby/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/rust/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/rust/rust.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/rust/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/sas/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/sas/sas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/sass/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/sass/sass.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/scheme/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/scheme/scheme.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/shell/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/shell/shell.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/shell/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/sieve/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/sieve/sieve.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/slim/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/slim/slim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/slim/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/smalltalk/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/smalltalk/smalltalk.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/smarty/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/smarty/smarty.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/solr/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/solr/solr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/soy/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/soy/soy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/sparql/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/sparql/sparql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/spreadsheet/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/spreadsheet/spreadsheet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/sql/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/sql/sql.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/stex/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/stex/stex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/stex/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/stylus/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/stylus/stylus.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/swift/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/swift/swift.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/tcl/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/tcl/tcl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/textile/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/textile/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/textile/textile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/tiddlywiki/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/tiddlywiki/tiddlywiki.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/tiddlywiki/tiddlywiki.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/tiki/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/tiki/tiki.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/tiki/tiki.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/toml/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/toml/toml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/tornado/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/tornado/tornado.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/troff/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/troff/troff.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ttcn-cfg/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ttcn-cfg/ttcn-cfg.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ttcn/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/ttcn/ttcn.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/turtle/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/turtle/turtle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/twig/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/twig/twig.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/vb/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/vb/vb.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/vbscript/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/vbscript/vbscript.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/velocity/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/velocity/velocity.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/verilog/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/verilog/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/verilog/verilog.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/vhdl/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/vhdl/vhdl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/vue/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/vue/vue.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/webidl/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/webidl/webidl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/xml/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/xml/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/xml/xml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/xquery/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/xquery/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/xquery/xquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/yacas/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/yacas/yacas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/yaml-frontmatter/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/yaml-frontmatter/yaml-frontmatter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/yaml/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/yaml/yaml.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/z80/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/mode/z80/z80.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/comment_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/doc_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/driver.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/emacs_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/lint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/mode_test.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/mode_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/multi_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/phantom_driver.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/run.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/scroll_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/search_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/sql-hint-test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/sublime_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/test/vim_test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/3024-day.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/3024-night.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/abcdef.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/ambiance-mobile.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/ambiance.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/base16-dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/base16-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/bespin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/blackboard.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/cobalt.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/colorforth.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/dracula.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/eclipse.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/elegant.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/erlang-dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/hopscotch.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/icecoder.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/isotope.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/lesser-dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/liquibyte.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/material.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/mbo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/mdn-like.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/midnight.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/monokai.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/neat.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/neo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/night.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/paraiso-dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/paraiso-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/pastel-on-dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/railscasts.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/rubyblue.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/seti.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/solarized.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/the-matrix.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/tomorrow-night-bright.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/tomorrow-night-eighties.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/ttcn.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/twilight.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/vibrant-ink.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/xq-dark.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/xq-light.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/yeti.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/codemirror/theme/zenburn.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/datetimeselecter/mobiscroll.min-2.6.2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/datetimeselecter/mobiscroll.min.2.6.2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/dragdrop/jquery.dragsort-0.5.2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/fancyTree/jquery.fancytree-all.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/fancyTree/js.cookie.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/fancyTree/skin-bootstrap/ui.fancytree.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/fancyTree/skin-bootstrap/ui.fancytree.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/fancyTree/skin-bootstrap/ui.fancytree.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flexslider/flexslider.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flexslider/fonts/flexslider-icon.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flexslider/fonts/flexslider-icon.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flexslider/fonts/flexslider-icon.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flexslider/fonts/flexslider-icon.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flexslider/jquery.flexslider-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flexslider/jquery.flexslider.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flowplayer/flowplayer-3.2.18.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flowplayer/flowplayer-3.2.6.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flowplayer/flowplayer.audio-3.2.2.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flowplayer/flowplayer.controls-3.2.16.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/flowplayer/player.htm" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/form/jquery.form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/form/jquery.form.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/hightcharts/highcharts-3d.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/hightcharts/highcharts-more.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/hightcharts/highcharts.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/html5shiv.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/icomoon/fonts/icomoon.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/icomoon/fonts/icomoon.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/icomoon/fonts/icomoon.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/icomoon/fonts/icomoon.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/icomoon/selection.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/icomoon/style.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/jquery-ui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/jquery.ajaxupload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/jquery.md5.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/jquery.pjax.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/jquery.signalR-1.1.4.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/jquery.unobtrusive-ajax.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer.m/layer.m.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer.m/need/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/extend/layer.ext.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/extend/layer.ext.src.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/skin/default/icon-ext.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/skin/default/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/skin/default/icon1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/skin/default/loading-0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/skin/default/loading-1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/skin/default/loading-2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/skin/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/layer/skin/layer.ext.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/lazyload-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/lazyload/jquery.lazyload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/lazyload/jquery.lazyload.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/scrollup/jquery.scrollUp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/scrollup/jquery.scrollUp.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/scrollup/jquery.scrollUp.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/release.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/select2-bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/select2-spinner.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/select2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/select2.jquery.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/select2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/select2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/select2_locale_zh-CN.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/select2/select2x2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/sortable/Sortable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/sortable/Sortable.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/uploadify/jquery.uploadify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/uploadify/jquery.uploadify.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/uploadify/uploadify-cancel.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/uploadify/uploadify.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/uploadify/uploadify.swf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/uploadify/us.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/uploadify/us2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/uploadify/ut.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/uploadify/ut2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/css/jquery-weui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/css/jquery-weui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/js/city-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/js/city-picker.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/js/jquery-weui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/js/jquery-weui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/js/swiper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/js/swiper.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/lib/fastclick.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/lib/jquery-2.1.4.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/lib/weui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/lib/weui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/lib/zepto.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/wow/css/animate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/wow/css/animate.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/wow/js/wow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/Scripts/wow/js/wow.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/publish.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/05-H5内容编辑器/weixin.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/03-产品说明书/css/custom.css" afterPath="$PROJECT_DIR$/03-产品说明书/css/custom.css" />
       <change beforePath="$PROJECT_DIR$/03-产品说明书/js/config.js" afterPath="$PROJECT_DIR$/03-产品说明书/js/config.js" />
       <change beforePath="$PROJECT_DIR$/03-产品说明书/js/index.js" afterPath="$PROJECT_DIR$/03-产品说明书/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/03-产品说明书/js/lib/plugins/installer.js" afterPath="$PROJECT_DIR$/03-产品说明书/js/lib/plugins/installer.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -818,59 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-产品说明书/js/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-产品说明书/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-产品说明书/css/custom.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-产品说明书/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="72" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="72" />
-              <folding>
-                <marker date="1587478032421" expanded="true" signature="4247:4331" ph="{...}" />
-                <marker date="1587478032421" expanded="true" signature="5587:7383" ph="/*...*/" />
-                <marker date="1587478032421" expanded="true" signature="6136:6350" ph="{&quot;method&quot;: 'post'...}" />
-                <marker date="1587478032421" expanded="true" signature="6250:6332" ph="{&quot;Content-Type&quot;: 'application/json'...}" />
-                <marker date="1587478032421" expanded="true" signature="6406:7267" ph="{...}" />
-                <marker date="1587478032421" expanded="true" signature="6573:6667" ph="{...}" />
-                <marker date="1587478032421" expanded="true" signature="6673:7267" ph="{...}" />
-                <marker date="1587478032421" expanded="true" signature="6699:6809" ph="/*...*/" />
-                <marker date="1587478032421" expanded="true" signature="6989:7188" ph="/*...*/" />
-                <marker date="1587478032421" expanded="true" signature="7213:7245" ph="//..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -968,8 +116,8 @@
         <option value="$PROJECT_DIR$/05-H5内容编辑器/weixin.html" />
         <option value="$PROJECT_DIR$/05-H5内容编辑器/index.html" />
         <option value="$PROJECT_DIR$/05-H5内容编辑器/publish.html" />
-        <option value="$PROJECT_DIR$/03-产品说明书/js/config.js" />
         <option value="$PROJECT_DIR$/03-产品说明书/js/lib/plugins/installer.js" />
+        <option value="$PROJECT_DIR$/03-产品说明书/js/config.js" />
         <option value="$PROJECT_DIR$/03-产品说明书/js/index.js" />
         <option value="$PROJECT_DIR$/03-产品说明书/css/custom.css" />
       </list>
@@ -984,9 +132,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/02-工程提醒/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-3051" />
+    <option name="y" value="188" />
     <option name="width" value="2582" />
     <option name="height" value="1562" />
   </component>
@@ -1006,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1013,12 +163,15 @@
               <item name="hytemp" type="b2602c69:ProjectViewProjectNode" />
               <item name="hytemp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hytemp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hytemp" type="462c0819:PsiDirectoryNode" />
+              <item name="03-产品说明书" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1094,7 +247,8 @@
       <workItem from="1587395020466" duration="2247000" />
       <workItem from="1587429257606" duration="9085000" />
       <workItem from="1587471133917" duration="1483000" />
-      <workItem from="1587473506844" duration="4807000" />
+      <workItem from="1587473506844" duration="5097000" />
+      <workItem from="1587515303347" duration="5895000" />
     </task>
     <task id="LOCAL-00001" summary="工程提醒">
       <created>1583140479444</created>
@@ -1177,7 +331,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198159000" />
+    <option name="totallyTimeSpent" value="204344000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1189,18 +343,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="2582" height="1562" extended-state="7" />
+    <frame x="-3051" y="188" width="2582" height="1562" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16072842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955405" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25170067" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18745276" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1234,21 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012102416983.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012102419057.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012102421865.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012102448073.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1510,10 +649,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/config.js">
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/lib/plugins/installer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="851">
+          <caret line="125" column="19" lean-forward="true" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/lib/mui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="5" column="31830" lean-forward="false" selection-start-line="5" selection-start-column="31825" selection-end-line="5" selection-end-column="31830" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/require_dl_config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/download.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="46" column="79" lean-forward="true" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
+          <folding>
+            <marker date="1587521826016" expanded="true" signature="4306:4390" ph="{...}" />
+            <marker date="1587521826016" expanded="true" signature="5646:7598" ph="/*...*/" />
+            <marker date="1587521826016" expanded="true" signature="6351:6565" ph="{&quot;method&quot;: 'post'...}" />
+            <marker date="1587521826016" expanded="true" signature="6465:6547" ph="{&quot;Content-Type&quot;: 'application/json'...}" />
+            <marker date="1587521826016" expanded="true" signature="6621:7482" ph="{...}" />
+            <marker date="1587521826016" expanded="true" signature="6788:6882" ph="{...}" />
+            <marker date="1587521826016" expanded="true" signature="6888:7482" ph="{...}" />
+            <marker date="1587521826016" expanded="true" signature="6914:7024" ph="/*...*/" />
+            <marker date="1587521826016" expanded="true" signature="7204:7403" ph="/*...*/" />
+            <marker date="1587521826016" expanded="true" signature="7428:7460" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1526,45 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/lib/plugins/installer.js">
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="125" column="19" lean-forward="true" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/lib/mui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="5" column="31830" lean-forward="false" selection-start-line="5" selection-start-column="31825" selection-end-line="5" selection-end-column="31830" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="72" lean-forward="false" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="72" />
-          <folding>
-            <marker date="1587478032421" expanded="true" signature="4247:4331" ph="{...}" />
-            <marker date="1587478032421" expanded="true" signature="5587:7383" ph="/*...*/" />
-            <marker date="1587478032421" expanded="true" signature="6136:6350" ph="{&quot;method&quot;: 'post'...}" />
-            <marker date="1587478032421" expanded="true" signature="6250:6332" ph="{&quot;Content-Type&quot;: 'application/json'...}" />
-            <marker date="1587478032421" expanded="true" signature="6406:7267" ph="{...}" />
-            <marker date="1587478032421" expanded="true" signature="6573:6667" ph="{...}" />
-            <marker date="1587478032421" expanded="true" signature="6673:7267" ph="{...}" />
-            <marker date="1587478032421" expanded="true" signature="6699:6809" ph="/*...*/" />
-            <marker date="1587478032421" expanded="true" signature="6989:7188" ph="/*...*/" />
-            <marker date="1587478032421" expanded="true" signature="7213:7245" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="61" column="1" lean-forward="true" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="96">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
       </provider>
