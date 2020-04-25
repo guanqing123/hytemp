@@ -1,0 +1,25 @@
+dl, ul {
+    list-style: none;
+}
+.formitems {
+    line-height: 20px;
+    padding: 0 0 8px;
+}
+.clearfix:after {
+    display: block;
+    content: " ";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.labelList li {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 2px 6px;
+    border-radius: 2px;
+    background-color: #4381e6;
+    color: #fff;
+}
+dl, ul {
+    list-style: none;
+}

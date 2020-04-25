@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="416e41cd-6a36-45db-87c7-872847d9e4c1" name="Default" comment="完善">
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/cat_choose.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/css/cat_choose.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/03-产品说明书/css/custom.css" afterPath="$PROJECT_DIR$/03-产品说明书/css/custom.css" />
-      <change beforePath="$PROJECT_DIR$/03-产品说明书/js/config.js" afterPath="$PROJECT_DIR$/03-产品说明书/js/config.js" />
-      <change beforePath="$PROJECT_DIR$/03-产品说明书/js/index.js" afterPath="$PROJECT_DIR$/03-产品说明书/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,21 +17,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="cat_choose.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06-中台客家相关/cat_choose.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cat_choose.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/cat_choose.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>maxHeight</find>
-      <find>rolling-table</find>
       <find>font</find>
       <find>addWaterMarker</find>
       <find>waterMask</find>
@@ -61,6 +79,8 @@
       <find>goods_border</find>
       <find>download</find>
       <find>toast</find>
+      <find>.wizard</find>
+      <find>wizardstep-num</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,13 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02-工程提醒/js/list.js" />
-        <option value="$PROJECT_DIR$/02-工程提醒/js/lib/plugins/iscrollTable.js" />
-        <option value="$PROJECT_DIR$/02-工程提醒/css/program.css" />
-        <option value="$PROJECT_DIR$/02-工程提醒/index.html" />
-        <option value="$PROJECT_DIR$/02-工程提醒/js/lib/plugins/installer.js" />
-        <option value="$PROJECT_DIR$/02-工程提醒/js/require_solist_config.js" />
-        <option value="$PROJECT_DIR$/02-工程提醒/css/pullupdown.css" />
         <option value="$PROJECT_DIR$/02-工程提醒/js/lib/plugins/PullUpDown.js" />
         <option value="$PROJECT_DIR$/02-工程提醒/solist.html" />
         <option value="$PROJECT_DIR$/02-工程提醒/js/require_jslist_config.js" />
@@ -120,6 +133,13 @@
         <option value="$PROJECT_DIR$/03-产品说明书/js/config.js" />
         <option value="$PROJECT_DIR$/03-产品说明书/js/index.js" />
         <option value="$PROJECT_DIR$/03-产品说明书/css/custom.css" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/css/product_add.css" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/product_add.html" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/button.html" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/css/button.css" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/ztree.html" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/css/cat_choose.css" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/cat_choose.html" />
       </list>
     </option>
   </component>
@@ -132,11 +152,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/02-工程提醒/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-3051" />
-    <option name="y" value="188" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="62" />
+    <option name="y" value="148" />
     <option name="width" value="2582" />
-    <option name="height" value="1562" />
+    <option name="height" value="1622" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -166,7 +186,13 @@
             <path>
               <item name="hytemp" type="b2602c69:ProjectViewProjectNode" />
               <item name="hytemp" type="462c0819:PsiDirectoryNode" />
-              <item name="03-产品说明书" type="462c0819:PsiDirectoryNode" />
+              <item name="06-中台客家相关" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hytemp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hytemp" type="462c0819:PsiDirectoryNode" />
+              <item name="06-中台客家相关" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,11 +218,11 @@
       <recent name="C:\guanqing\git\hytemp\离职邮件页面" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\guanqing\git\hytemp\05-H5内容编辑器" />
-      <recent name="C:\guanqing\git\hytemp\03-产品说明书\js\lib" />
-      <recent name="C:\guanqing\git\hytemp\03-产品说明书\js\lib\plugins" />
-      <recent name="C:\guanqing\git\hytemp\03-产品说明书\js\preview" />
-      <recent name="C:\guanqing\git\hytemp\03-产品说明书\images" />
+      <recent name="C:\guanqing\git\hytemp\06-中台客家相关\zTree_v3" />
+      <recent name="C:\guanqing\git\hytemp\06-中台客家相关\js" />
+      <recent name="C:\guanqing\git\hytemp\06-中台客家相关\demoStyle" />
+      <recent name="C:\guanqing\git\hytemp\06-中台客家相关" />
+      <recent name="C:\guanqing\git\hytemp\06-中台客家相关\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,7 +274,13 @@
       <workItem from="1587429257606" duration="9085000" />
       <workItem from="1587471133917" duration="1483000" />
       <workItem from="1587473506844" duration="5097000" />
-      <workItem from="1587515303347" duration="5895000" />
+      <workItem from="1587515303347" duration="5984000" />
+      <workItem from="1587523736552" duration="12000" />
+      <workItem from="1587542731009" duration="1643000" />
+      <workItem from="1587547160526" duration="2569000" />
+      <workItem from="1587566704933" duration="14000" />
+      <workItem from="1587620706035" duration="3101000" />
+      <workItem from="1587816308341" duration="2568000" />
     </task>
     <task id="LOCAL-00001" summary="工程提醒">
       <created>1583140479444</created>
@@ -331,7 +363,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204344000" />
+    <option name="totallyTimeSpent" value="214340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,16 +375,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3051" y="188" width="2582" height="1562" extended-state="0" />
+    <frame x="-11" y="-11" width="2582" height="1562" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16072842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12707838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955405" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18745276" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.059712775" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -388,83 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012102448073.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012102500242.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012102548180.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012103750774.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012103753613.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012103756156.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012103814111.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012103915856.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/p.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/pageDesign/field-image.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/pageDesign/field-imgext.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/pageDesign/field-product.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/pageDesign/field-product1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/pageDesign/pageWidget.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/pageDesign/pdt.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/add.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -561,7 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,18 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="46" column="79" lean-forward="true" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
-          <folding>
-            <marker date="1587521826016" expanded="true" signature="4306:4390" ph="{...}" />
-            <marker date="1587521826016" expanded="true" signature="5646:7598" ph="/*...*/" />
-            <marker date="1587521826016" expanded="true" signature="6351:6565" ph="{&quot;method&quot;: 'post'...}" />
-            <marker date="1587521826016" expanded="true" signature="6465:6547" ph="{&quot;Content-Type&quot;: 'application/json'...}" />
-            <marker date="1587521826016" expanded="true" signature="6621:7482" ph="{...}" />
-            <marker date="1587521826016" expanded="true" signature="6788:6882" ph="{...}" />
-            <marker date="1587521826016" expanded="true" signature="6888:7482" ph="{...}" />
-            <marker date="1587521826016" expanded="true" signature="6914:7024" ph="/*...*/" />
-            <marker date="1587521826016" expanded="true" signature="7204:7403" ph="/*...*/" />
-            <marker date="1587521826016" expanded="true" signature="7428:7460" ph="//..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -710,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,7 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,6 +664,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/product_add.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/images/gicon_white.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/button.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/demoStyle/demo.css" />
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/js/jquery-1.4.4.min.js" />
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/js/jquery.ztree.core.js" />
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/zTree_v3/api/cn/fn.zTree._z.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/zTree_v3/demo/en/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1512">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/zTree_v3/demo/cn/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="80" column="65" lean-forward="true" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/ztree.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/zTree_v3/demo/cn/excheck/checkbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/product_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/cat_choose.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/cat_choose.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
