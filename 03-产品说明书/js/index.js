@@ -6,7 +6,7 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
             "PullUpDown" : PullUpDown
         },
         template: `<div class="mui-content">
-             <div class="mui-content-padded" style="margin: 15px 5px 0px 5px">
+             <div id="search" class="mui-content-padded" style="margin: 15px 5px 0px 5px">
                  <div class="mui-input-row mui-search customW">
                      <input type="search" class="mui-input-clear" placeholder="产品型号" @blur="search">
                  </div>
@@ -42,7 +42,7 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
                 <span class="mui-icon mui-icon-arrowup"></span>
              </a>
             
-             <div class="mui-zoom-scroller" v-show="showImg">
+             <div class="mui-zoom-scroller" v-show="showImg" @touchmove.prevent>
                 <img :src="src" data-preview-lazyload="" style="" class="mui-zoom" @load="loadImage">
                 <button type="button" @click="hideImg" class="close">X</button>
              </div>
@@ -56,7 +56,8 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
                 sum: 0,
                 condition:'',
                 src:'',
-                showImg: false
+                showImg: false,
+                showSearch: true
             }
         },
         methods: {

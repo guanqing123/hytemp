@@ -74,7 +74,7 @@
     100% {opacity: 1;}
 }
 .mui-zoom-scroller {
-    position: absolute;
+    position: fixed;
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
