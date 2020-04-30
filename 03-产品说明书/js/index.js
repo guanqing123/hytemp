@@ -6,13 +6,13 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
             "PullUpDown" : PullUpDown
         },
         template: `<div class="mui-content">
-             <div id="search" class="mui-content-padded" style="margin: 15px 5px 0px 5px">
+             <div class="mui-content-padded search" style="margin: 15px 5px 0px 5px">
                  <div class="mui-input-row mui-search customW">
                      <input type="search" class="mui-input-clear" placeholder="产品型号" @blur="search">
                  </div>
                  <button type="button" >搜索</button>
              </div>
-             <ul class="mui-table-view mui-table-view-striped mui-table-view-condensed pull">
+             <ul id="ul" class="mui-table-view mui-table-view-striped mui-table-view-condensed pull">
                 <PullUpDown ref="pull" :pullDown="false" :sum="sum" :currentPage="currentPage" :count="count" @nextPage="nextPage">
                  <li class="mui-table-view-cell" v-for="sms in cpsms">
                      <div class="mui-table">
@@ -42,7 +42,7 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
                 <span class="mui-icon mui-icon-arrowup"></span>
              </a>
             
-             <div class="mui-zoom-scroller" v-show="showImg" @touchmove.prevent>
+             <div class="mui-zoom-scroller modal" v-show="showImg">
                 <img :src="src" data-preview-lazyload="" style="" class="mui-zoom" @load="loadImage">
                 <button type="button" @click="hideImg" class="close">X</button>
              </div>
@@ -171,11 +171,17 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
                 var self = this;
                 self.showImg = true;
                 self.$hide();
+                document.body.style.position = 'fixed';
+                document.body.style.overflow = 'hidden';
+                self.$refs['pull'].openPullDown();
             },
             hideImg: function () {
                 var self = this;
                 self.showImg = false;
                 self.src = "";
+                document.body.style.position = 'relative';
+                document.body.style.overflow = 'auto';
+                self.$refs['pull'].closePullDown();
             }
         },
         mounted: function () {

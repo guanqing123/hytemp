@@ -127,6 +127,10 @@ define(['vue'], function (Vue) {
                 self.loadMoreFlag = false;
                 //执行过网络请求
                 self.hasRequest = true;
+            },
+            openPullDown: function () {
+                var self = this;
+                self.loadMoreFlag = true;
             }
         },
         mounted: function() {
