@@ -2,8 +2,820 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="416e41cd-6a36-45db-87c7-872847d9e4c1" name="Default" comment="完善">
-      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/cat_choose.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/css/cat_choose.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/Gruntfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/addCustomizeButton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/addCustomizeCombox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/addCustomizeDialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/charts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/completeDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/customPluginDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/customToolbarDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/customizeDialogPage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/customizeToolbarUIDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/editor_api.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/filterRuleDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/highlightDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/jqueryCompleteDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/jqueryValidation.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/multiDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/multiEditorWithOneInstance.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/renderInTable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/resetDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/sectiondemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/server/getContent.ashx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/server/getContent.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/server/getContent.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/server/getContent.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/setWidthHeightDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/simpleDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/sortableDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/submitFormDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/textareaDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/uparsedemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_parse/background.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_parse/charts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_parse/insertcode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_parse/list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_parse/parse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_parse/table.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_parse/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/adapter/autosave.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/adapter/editor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/adapter/editorui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/adapter/message.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/api.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/Editor.defaultoptions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/Editor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/EventBase.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/Range.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/Selection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/domUtils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/dtd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/filternode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/filterword.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/htmlparser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/keymap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/loadconfig.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/localstorage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/plugin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/core/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/editor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/anchor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/autofloat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/autoheight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/autolink.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/autosave.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/autosubmit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/autotypeset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/autoupload.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/background.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/basestyle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/blockquote.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/catchremoteimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/charts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/cleardoc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/contextmenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/convertcase.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/copy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/customstyle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/defaultfilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/directionality.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/dragdrop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/elementpath.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/enterkey.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/fiximgclick.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/font.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/formatmatch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/horizontal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/iframe.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/indent.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/insertcode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/insertfile.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/inserthtml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/insertparagraph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/justify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/keystrokes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/lineheight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/link.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/music.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/pagebreak.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/paragraph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/paste.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/preview.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/print.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/puretxtpaste.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/removeformat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/rowspacing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/scrawl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/searchreplace.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/section.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/selectall.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/serverparam.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/shortcutmenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/simpleupload.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/snapscreen.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/source.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/table.action.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/table.cmds.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/table.core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/table.sort.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/template.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/time.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/undo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/webapp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/wordcount.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/wordimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/plugins/xssFilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/autotypesetbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/autotypesetpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/breakline.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/button.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/cellalignpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/colorbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/colorpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/combox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/mask.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/menubutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/message.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/multiMenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/pastepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/popup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/separator.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/shortcutmenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/splitbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/stateful.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/tablebutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/tablepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/toolbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/ui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/uibase.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_src/ui/uiutils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/Editor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/EventBase.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/Range.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/Selection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/ajax.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/domUtils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/filternode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/filterword.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/htmlparser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/localstorage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/plugin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/tools.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/core/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/api.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/commands.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/Editor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/EventBase.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/Range.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/Selection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/ajax.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/domUtils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/dtd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/filternode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/filterword.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/htmlparser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/core/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/customEvent.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/editor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/jscoverage-highlight.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/jscoverage-ie.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/jscoverage-throbber.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/jscoverage.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/jscoverage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/jscoverage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/anchor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/autofloat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/autoheight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/autolink.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/autosubmit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/autotypeset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/background.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/basestyle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/blockquote.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/catchremoteimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/cleardoc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/contextmenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/convertcase.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/customstyle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/defaultfilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/directionality.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/dragdrop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/elementpath.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/enterkey.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/fiximgclick.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/font.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/formatmatch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/horizontal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/iframe.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/indent.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/insertcode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/inserthtml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/insertparagraph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/justify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/keystrokes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/lineheight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/link.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/music.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/pagebreak.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/paragraph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/paste.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/preview.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/print.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/puretxtpaste.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/removeformat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/rowspacing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/scrawl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/searchreplace.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/selectall.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/shortcutmenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/snapscreen.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/source.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/table.action.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/table.cmds.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/table.core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/template.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/time.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/undo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/webapp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/wordcount.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/plugins/wordimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/autotypesetbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/autotypesetpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/breakline.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/button.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/cellalignpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/colorbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/colorpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/combox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/dialog.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/editor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/editorui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/mask.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/menubutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/multiMenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/pastepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/popup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/separator.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/shortcutmenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/splitbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/stateful.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/tablebutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/tablepicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/toolbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/ui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/uibase.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/coverage/ui/uiutils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/editor_config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/editor_config_src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/import.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/anchor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/auto.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/autofloat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/autoheight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/autolink.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/autosave.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/autotypeset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/autoupload.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/background.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/basestyle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/blockquote.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/catchremoteimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/charts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/cleardoc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/contextmenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/convertcase.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/copy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/customstyle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/defaultfilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/directionality.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/dragdrop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/elementpath.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/enterkey.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/fiximgclick.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/font.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/formatmatch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/horizontal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/iframe.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/indent.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/insertcode.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/inserthtml.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/insertparagraph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/justify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/keystrokes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/lineheight.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/link.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/music.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/pagebreak.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/paragraph.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/paste.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/preview.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/print.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/removeformat.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/rowspacing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/scrawl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/searchreplace.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/section.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/selectall.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/serverparam.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/shortcutkeys.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/shortcutmenu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/snapscreen.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/source.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/table.action.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/table.cmds.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/table.core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/table.sort.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/template.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/time.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/tools.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/ueditor.config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/undo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/webapp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/wordcount.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/plugins/wordimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/qunit/jquery-1.5.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/qunit/qunit.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/qunit/qunit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/qunit/tools.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/8eaccbef76094b364e2cfddaa1cc7cd98d109d49.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/Manual regression cases.xmind" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/VersionUpdate/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/VersionUpdate/test list for 1.3.0.xmind" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/VersionUpdate/test list for 1.3.6.xmind" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/VersionUpdate/test list for 1.4.0.xmind" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/VersionUpdate/test list for 1.4.3.xmind" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/demo_1.3.0/IEAutolinkFalse_demo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/demo_1.3.0/uparse.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/demo_1.3.6/Demo_3831.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/demo_1.3.6/Demo_contentchange.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/demo_1.4.0/uparsedemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/testDesign/offical site.xmind" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/analysis.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/batchrun.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/case.class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/coverage/jscov.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/coverage/jscoverage-highlight.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/coverage/jscoverage-ie.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/coverage/jscoverage-throbber.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/coverage/jscoverage.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/coverage/jscoverage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/coverage/jscoverage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/coverage/readCoverage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/css/bg_button_a.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/css/bg_button_span.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/css/qunit.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/css/tangramtest.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/css/testsuite.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/filehelper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/geneHTML.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/geneHistory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/geneXML.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/import.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/js/UserAction manual.rar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/js/UserAction.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/js/ext_qunit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/js/jquery-1.5.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/js/run.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/js/tangram.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/js/testrunner.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/js/tools.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/lib/Staf.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/lib/StafResult.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/log.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/mail.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/read.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/record.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/report.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/run.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/runC.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/runall.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/txt/test1_1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/txt/test1_2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/txt/test1_3.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/txt/test2_1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/txt/test2_2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/txt/test2_3.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/br/txt/test3_1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/coverage/cov.bat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/coverage/jscoverage.exe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/data/frame.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/data/frame.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/data/test.JPG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/data/test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/data/testReady.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/ant_tangram_ext.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/js.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/conf/check.cfg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/conf/custcheck.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/conf/ignore.list" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/conf/omitfiles.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/core/customcheck/cust.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/core/jshint/js.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/core/jshint/jshint-rhino.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/core/tpl/htmlpart.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/core/tpl/toggle_tpl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/hint.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/jshint.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jshunter_1.2.0.1/jshunter_dev/jshunter/version" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jslint4java-2.0.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/jslint4java-ant-1.4.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/tools/lib/npPlugintest.dll" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/autotypesetbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/button.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/colorbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/combox.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/css/DEFAULT.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/editor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/editorui.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/mask.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/menu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/menubutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/popup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/separator.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/splitbutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/stateful.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/tablebutton.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/toolbar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/tools.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/uibase.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/ui/uiutils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_test/关键字.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/ASPJson.class.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/MultiformProcessor.class.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/PathFormatter.class.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/Uploader.Class.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/action_config.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/action_crawler.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/action_list.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/action_upload.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/config.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/config_loader.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/controller.asp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/changelog.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/anchor/anchor.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/attachment.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/attachment.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/attachment.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_chm.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_default.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_doc.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_exe.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_mv.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_psd.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_rar.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_txt.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/fileTypeImages/icon_xls.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/alignicon.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/alignicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/file-icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/file-icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/progress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/success.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/attachment/images/success.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/background/background.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/background/background.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/background/background.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/background/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/background/images/success.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/charts/chart.config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/charts/charts.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/charts/charts.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/charts/charts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/charts/images/charts0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/charts/images/charts1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/charts/images/charts2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/charts/images/charts3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/charts/images/charts4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/charts/images/charts5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/emotion.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/emotion.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/emotion.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/images/0.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/images/bface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/images/cface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/images/fface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/images/jxface2.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/images/neweditor-tab-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/images/tface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/images/wface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/emotion/images/yface.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/gmap/gmap.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/help/help.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/help/help.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/help/help.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/image.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/image.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/image.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/images/alignicon.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/images/icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/images/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/images/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/images/progress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/images/success.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/image/images/success.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/insertframe/insertframe.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/internal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/link/link.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/map/map.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/map/show.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/music/music.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/music/music.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/music/music.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/preview/preview.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/addimg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/brush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/delimg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/delimgH.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/empty.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/emptyH.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/eraser.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/redo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/redoH.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/scale.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/scaleH.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/size.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/undo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/images/undoH.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/scrawl.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/scrawl.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/scrawl/scrawl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/searchreplace/searchreplace.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/searchreplace/searchreplace.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/snapscreen/snapscreen.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/spechars/spechars.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/spechars/spechars.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/table/dragicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/table/edittable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/table/edittable.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/table/edittable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/table/edittd.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/table/edittip.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/template/config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/template/images/bg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/template/images/pre0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/template/images/pre1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/template/images/pre2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/template/images/pre3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/template/images/pre4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/template/template.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/template/template.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/template/template.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/center_focus.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/file-icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/file-icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/image.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/left_focus.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/none_focus.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/progress.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/right_focus.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/success.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/images/success.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/video.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/video.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/video/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/webapp/webapp.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/wordimage/fClipboard_ueditor.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/wordimage/imageUploader.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/wordimage/tangram.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/wordimage/wordimage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/dialogs/wordimage/wordimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/config.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/controller.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/lib/commons-codec-1.9.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/lib/commons-fileupload-1.3.1.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/lib/commons-io-2.4.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/lib/json.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/lib/ueditor-1.1.2.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/ActionEnter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/ConfigManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/Encoder.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/PathFormat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/define/ActionMap.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/define/ActionState.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/define/AppInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/define/BaseState.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/define/FileType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/define/MIMEType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/define/MultiState.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/define/State.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/hunter/FileManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/hunter/ImageHunter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/upload/Base64Uploader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/upload/BinaryUploader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/upload/StorageManager.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/jsp/src/com/baidu/ueditor/upload/Uploader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/addimage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/alldeletebtnhoverskin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/alldeletebtnupskin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/copy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/deletedisable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/deleteenable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/listbackground.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/localimage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/music.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/rotateleftdisable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/rotateleftenable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/rotaterightdisable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/rotaterightenable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/en/images/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/zh-cn/images/copy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/zh-cn/images/localimage.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/zh-cn/images/music.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/zh-cn/images/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/lang/zh-cn/zh-cn.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/App_Code/Config.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/App_Code/ConfigHandler.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/App_Code/CrawlerHandler.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/App_Code/Handler.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/App_Code/ListFileHandler.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/App_Code/NotSupportedHandler.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/App_Code/PathFormater.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/App_Code/UploadHandler.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/Web.config" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/config.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/controller.ashx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/net/net.sln" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/php/Uploader.class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/php/action_crawler.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/php/action_list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/php/action_upload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/php/config.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/php/controller.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/autotypesetpicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/button.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/buttonicon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/cellalignpicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/colorbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/colorpicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/combox.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/contextmenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/dialog.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/editor.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/menu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/menubutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/message.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/multiMenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/paragraphpicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/pastepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/popup.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/separtor.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/shortcutmenu.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/splitbutton.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/tablepicker.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/toolbar.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/ueditor.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/_css/uibase.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/dialogbase.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/anchor.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/arrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/arrow_down.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/arrow_up.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/button-bg.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/cancelbutton.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/charts.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/cursor_h.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/cursor_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/cursor_v.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/cursor_v.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/dialog-title-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/filescan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/highlighted.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/icons-all.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/icons.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/loaderror.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/loading.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/lock.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/neweditor-tab-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/pagebreak.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/scale.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/sortable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/spacer.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/sparator_v.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/table-cell-align.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/tangram-colorpicker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/toolbar_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/unhighlighted.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/upload.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/videologo.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/word.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/default/images/wordpaste.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/themes/iframe.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/SyntaxHighlighter/shCore.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/SyntaxHighlighter/shCoreDefault.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/codemirror/codemirror.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/codemirror/codemirror.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/adapters/mootools-adapter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/adapters/mootools-adapter.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/adapters/prototype-adapter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/adapters/prototype-adapter.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/adapters/standalone-framework.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/adapters/standalone-framework.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/highcharts-more.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/highcharts-more.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/highcharts.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/highcharts.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/annotations.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/annotations.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/canvas-tools.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/canvas-tools.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/data.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/drilldown.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/drilldown.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/exporting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/exporting.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/funnel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/funnel.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/heatmap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/heatmap.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/map.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/map.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/no-data-to-display.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/modules/no-data-to-display.src.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/themes/dark-blue.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/themes/dark-green.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/themes/gray.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/themes/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/highcharts/themes/skies.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/jquery-1.10.2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/jquery-1.10.2.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/jquery-1.10.2.min.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/snapscreen/UEditorSnapscreen.exe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/video-js/font/vjs.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/video-js/font/vjs.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/video-js/font/vjs.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/video-js/font/vjs.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/video-js/video-js.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/video-js/video-js.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/video-js/video-js.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/video-js/video.dev.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/video-js/video.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/Uploader.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.custom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.custom.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.flashonly.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.flashonly.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.html5only.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.html5only.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.withoutimage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/webuploader/webuploader.withoutimage.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/xss.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/zeroclipboard/ZeroClipboard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/zeroclipboard/ZeroClipboard.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/third-party/zeroclipboard/ZeroClipboard.swf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/ueditor.config.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/ueditor.parse.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,21 +830,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="cat_choose.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-中台客家相关/cat_choose.html">
+      <file leaf-file-name="customizeToolbarUIDemo.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/customizeToolbarUIDemo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="264">
+              <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+              <folding>
+                <element signature="n#style#0;n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customToolbarDemo.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/customToolbarDemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="771">
+              <caret line="96" column="67" lean-forward="false" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cat_choose.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/cat_choose.css">
+      <file leaf-file-name="addCustomizeButton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/addCustomizeButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="454">
+              <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -44,32 +868,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>font</find>
-      <find>addWaterMarker</find>
-      <find>waterMask</find>
-      <find>https://cdn.dcloud.net.cn/img/</find>
-      <find>watermark</find>
-      <find>pullDown</find>
-      <find>collapse</find>
-      <find>scroll</find>
-      <find>http://ask.dcloud.net.cn/</find>
-      <find>https://cdn.dcloud.net.cn/img/mui-shadow-grey.png</find>
-      <find>mui-ac</find>
-      <find>mui-active</find>
-      <find>inBottom</find>
       <find>pullrefresh</find>
-      <find>pull</find>
-      <find>sortable</find>
       <find>txtPageId</find>
       <find>uf-image</find>
-      <find>uf-new-field</find>
       <find>applyWidgetHtml</find>
       <find>savePageDesign</find>
       <find>swiper-container</find>
@@ -81,7 +889,26 @@
       <find>toast</find>
       <find>.wizard</find>
       <find>wizardstep-num</find>
+      <find>#guanqing</find>
+      <find>guanqing</find>
+      <find>img-move</find>
+      <find>loadMoreFlag</find>
+      <find>pull</find>
+      <find>PullUp</find>
+      <find>nextPage</find>
+      <find>widgetEditWin</find>
+      <find>showWidgetEditWin</find>
+      <find>reInitEvent</find>
+      <find>UE</find>
+      <find>app-inner</find>
+      <find>sortable</find>
+      <find>uf-new-field</find>
+      <find>curFieldType</find>
+      <find>index</find>
     </findStrings>
+    <replaceStrings>
+      <replace>/*#guanqing*/</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,16 +916,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02-工程提醒/js/lib/plugins/PullUpDown.js" />
-        <option value="$PROJECT_DIR$/02-工程提醒/solist.html" />
-        <option value="$PROJECT_DIR$/02-工程提醒/js/require_jslist_config.js" />
-        <option value="$PROJECT_DIR$/02-工程提醒/jslist.html" />
-        <option value="$PROJECT_DIR$/02-工程提醒/css/jslist.css" />
-        <option value="$PROJECT_DIR$/02-工程提醒/js/require_sklist_config.js" />
-        <option value="$PROJECT_DIR$/02-工程提醒/js/index.js" />
-        <option value="$PROJECT_DIR$/02-工程提醒/sklist.html" />
-        <option value="$PROJECT_DIR$/02-工程提醒/js/sklist.js" />
-        <option value="$PROJECT_DIR$/02-工程提醒/js/jslist.js" />
         <option value="$PROJECT_DIR$/02-工程提醒/css/solist.css" />
         <option value="$PROJECT_DIR$/02-工程提醒/js/solist.js" />
         <option value="$PROJECT_DIR$/04-客服系统/webDemo-V2/sdkAccess.html" />
@@ -120,7 +937,6 @@
         <option value="$PROJECT_DIR$/03-产品说明书/js/preview/pdfImg.js" />
         <option value="$PROJECT_DIR$/03-产品说明书/js/preview/invoicePreview.js" />
         <option value="$PROJECT_DIR$/03-产品说明书/js/download.js" />
-        <option value="$PROJECT_DIR$/03-产品说明书/js/lib/plugins/PullUpDown.js" />
         <option value="$PROJECT_DIR$/03-产品说明书/js/require_config.js" />
         <option value="$PROJECT_DIR$/03-产品说明书/download.html" />
         <option value="$PROJECT_DIR$/05-H5内容编辑器/resources/template_01.html" />
@@ -131,8 +947,6 @@
         <option value="$PROJECT_DIR$/05-H5内容编辑器/publish.html" />
         <option value="$PROJECT_DIR$/03-产品说明书/js/lib/plugins/installer.js" />
         <option value="$PROJECT_DIR$/03-产品说明书/js/config.js" />
-        <option value="$PROJECT_DIR$/03-产品说明书/js/index.js" />
-        <option value="$PROJECT_DIR$/03-产品说明书/css/custom.css" />
         <option value="$PROJECT_DIR$/06-中台客家相关/css/product_add.css" />
         <option value="$PROJECT_DIR$/06-中台客家相关/product_add.html" />
         <option value="$PROJECT_DIR$/06-中台客家相关/button.html" />
@@ -140,6 +954,19 @@
         <option value="$PROJECT_DIR$/06-中台客家相关/ztree.html" />
         <option value="$PROJECT_DIR$/06-中台客家相关/css/cat_choose.css" />
         <option value="$PROJECT_DIR$/06-中台客家相关/cat_choose.html" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/imges.html" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/css/upload.css" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/uploader.html" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/css/component-min.css" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/css/uploader.css" />
+        <option value="$PROJECT_DIR$/03-产品说明书/test.html" />
+        <option value="$PROJECT_DIR$/03-产品说明书/js/lib/plugins/PullUpDown.js" />
+        <option value="$PROJECT_DIR$/03-产品说明书/js/index.js" />
+        <option value="$PROJECT_DIR$/03-产品说明书/css/custom.css" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/SKU.html" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/css/sku.css" />
+        <option value="$PROJECT_DIR$/05-H5内容编辑器/test.html" />
+        <option value="$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/addCustomizeButton.js" />
       </list>
     </option>
   </component>
@@ -153,10 +980,10 @@
     <handled-path value="$PROJECT_DIR$/02-工程提醒/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="62" />
-    <option name="y" value="148" />
+    <option name="x" value="556" />
+    <option name="y" value="442" />
     <option name="width" value="2582" />
-    <option name="height" value="1622" />
+    <option name="height" value="1582" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -192,7 +1019,14 @@
               <item name="hytemp" type="b2602c69:ProjectViewProjectNode" />
               <item name="hytemp" type="462c0819:PsiDirectoryNode" />
               <item name="06-中台客家相关" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="ueditor-1.4.3.3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hytemp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hytemp" type="462c0819:PsiDirectoryNode" />
+              <item name="06-中台客家相关" type="462c0819:PsiDirectoryNode" />
+              <item name="ueditor-1.4.3.3" type="462c0819:PsiDirectoryNode" />
+              <item name="_examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,11 +1052,11 @@
       <recent name="C:\guanqing\git\hytemp\离职邮件页面" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\guanqing\git\hytemp\06-中台客家相关" />
+      <recent name="C:\guanqing\git\hytemp\06-中台客家相关\css" />
       <recent name="C:\guanqing\git\hytemp\06-中台客家相关\zTree_v3" />
       <recent name="C:\guanqing\git\hytemp\06-中台客家相关\js" />
       <recent name="C:\guanqing\git\hytemp\06-中台客家相关\demoStyle" />
-      <recent name="C:\guanqing\git\hytemp\06-中台客家相关" />
-      <recent name="C:\guanqing\git\hytemp\06-中台客家相关\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,7 +1114,34 @@
       <workItem from="1587547160526" duration="2569000" />
       <workItem from="1587566704933" duration="14000" />
       <workItem from="1587620706035" duration="3101000" />
-      <workItem from="1587816308341" duration="2568000" />
+      <workItem from="1587816308341" duration="2671000" />
+      <workItem from="1587862849028" duration="607000" />
+      <workItem from="1587950842941" duration="17000" />
+      <workItem from="1588057994946" duration="7709000" />
+      <workItem from="1588142912443" duration="6048000" />
+      <workItem from="1588150178930" duration="2233000" />
+      <workItem from="1588222498352" duration="7461000" />
+      <workItem from="1588727424598" duration="264000" />
+      <workItem from="1588735451421" duration="115000" />
+      <workItem from="1588812938754" duration="2776000" />
+      <workItem from="1588906647592" duration="50000" />
+      <workItem from="1588917397441" duration="130000" />
+      <workItem from="1589009124636" duration="15000" />
+      <workItem from="1589177960163" duration="37000" />
+      <workItem from="1589334330188" duration="1076000" />
+      <workItem from="1589353198743" duration="608000" />
+      <workItem from="1590024140997" duration="1477000" />
+      <workItem from="1590124526124" duration="5538000" />
+      <workItem from="1590222953182" duration="2773000" />
+      <workItem from="1590236318813" duration="3275000" />
+      <workItem from="1590320830263" duration="2542000" />
+      <workItem from="1590371502923" duration="7387000" />
+      <workItem from="1590409327569" duration="1530000" />
+      <workItem from="1590455038240" duration="7109000" />
+      <workItem from="1590496335883" duration="1986000" />
+      <workItem from="1590540447461" duration="1861000" />
+      <workItem from="1590584377390" duration="19000" />
+      <workItem from="1590584422077" duration="4693000" />
     </task>
     <task id="LOCAL-00001" summary="工程提醒">
       <created>1583140479444</created>
@@ -363,7 +1224,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214340000" />
+    <option name="totallyTimeSpent" value="283779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,16 +1237,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2582" height="1562" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12707838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22723673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955405" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.059712775" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11942555" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -396,6 +1256,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955405" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955405" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955405" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6308186" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22733077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955405" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -421,283 +1300,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/add.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/iphone_head.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/js/layer/layer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/js/ueditor/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3365">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/js/GobalHelper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1541">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/js/jquery.ajaxupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/js/swiper.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/js/ueditor/third-party/jquery-1.10.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="9281" column="0" lean-forward="false" selection-start-line="9281" selection-start-column="0" selection-end-line="9281" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012102258795.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/wow/js/wow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/lib/weui.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/icomoon/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/lib/jquery-2.1.4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/js/jquery-weui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/lib/fastclick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/lazyload/jquery.lazyload.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/IosOverlay/css/iosOverlay.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/IosOverlay/js/iosOverlay.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/MatrixGlobal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/js/sortable/Sortable.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="1" column="1090" lean-forward="false" selection-start-line="1" selection-start-column="1090" selection-end-line="1" selection-end-column="1090" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/template_01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="298" column="7" lean-forward="false" selection-start-line="298" selection-start-column="7" selection-end-line="298" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/weixin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/publish.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="327" column="38" lean-forward="false" selection-start-line="327" selection-start-column="38" selection-end-line="327" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/Scripts/weui/css/jquery-weui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1869">
-          <caret line="2454" column="20" lean-forward="false" selection-start-line="2454" selection-start-column="20" selection-end-line="2454" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1002">
-          <caret line="702" column="11" lean-forward="true" selection-start-line="702" selection-start-column="11" selection-end-line="702" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/preview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/lib/plugins/installer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="125" column="19" lean-forward="true" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/lib/mui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="5" column="31830" lean-forward="false" selection-start-line="5" selection-start-column="31825" selection-end-line="5" selection-end-column="31830" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/download.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/require_dl_config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/download.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="46" column="79" lean-forward="true" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/product_add.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-中台客家相关/images/gicon_white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-中台客家相关/button.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/button.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-中台客家相关/demoStyle/demo.css" />
-    <entry file="file://$PROJECT_DIR$/06-中台客家相关/js/jquery-1.4.4.min.js" />
     <entry file="file://$PROJECT_DIR$/06-中台客家相关/js/jquery.ztree.core.js" />
     <entry file="file://$PROJECT_DIR$/06-中台客家相关/zTree_v3/api/cn/fn.zTree._z.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -724,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,17 +1333,135 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-96">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06-中台客家相关/product_add.html">
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/cat_choose.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/upload.css" />
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/uploader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="165" column="1" lean-forward="false" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/uploader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="129" column="1" lean-forward="false" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/test.html" />
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/lib/plugins/PullUpDown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="130" column="24" lean-forward="false" selection-start-line="130" selection-start-column="12" selection-end-line="130" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="105" column="1" lean-forward="false" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/images/gicon_black.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/sku.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="100" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-工程提醒/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-工程提醒/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/images/dark.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-工程提醒/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-工程提醒/js/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-工程提醒/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="12" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-工程提醒/js/lib/plugins/PullUpDown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="55" column="25" lean-forward="false" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-工程提醒/js/lib/plugins/installer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="92" column="32" lean-forward="false" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/lib/plugins/installer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="121" column="13" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/weixin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="51" column="12" lean-forward="true" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/demo/20161012102143634.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -750,14 +1469,183 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/product_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/SKU.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/uploader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/publish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="36" column="59" lean-forward="true" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/js/UFXUI/themes/light/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/images/pageDesign/pageWidget.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14448">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/resources/js/GobalHelper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1632">
+          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/download.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/download.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1038">
+          <caret line="167" column="45" lean-forward="false" selection-start-line="167" selection-start-column="45" selection-end-line="167" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-产品说明书/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="632" column="33" lean-forward="false" selection-start-line="632" selection-start-column="33" selection-end-line="632" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-H5内容编辑器/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="59" column="34" lean-forward="false" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/06-中台客家相关/css/cat_choose.css">
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/asp/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/ueditor.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1008">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/ueditor.parse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/customizeDialogPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/addCustomizeDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/completeDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/addCustomizeButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/customizeToolbarUIDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#script#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-中台客家相关/ueditor-1.4.3.3/_examples/customToolbarDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="96" column="67" lean-forward="false" selection-start-line="96" selection-start-column="32" selection-end-line="96" selection-end-column="67" />
           <folding />
         </state>
       </provider>
