@@ -1,0 +1,79 @@
+.mdetail_name {
+    font-family: Microsoft YaHei,sans-serif;
+}
+.mdetail_name {
+    padding: 10px;
+    border-bottom: #fff solid 1px;
+    background: #fff;
+    position: relative;
+}
+.mdetail_name .price {
+    color: #ff5a00;
+    padding: 10px 0 0;
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
+}
+.fl {
+    float: left;
+}
+.mdetail_name .price .symbol {
+    font-size: 14px;
+    font-family: 'Helvetica Neue';
+    vertical-align: 0;
+    font-weight: 300;
+}
+.mdetail_name .price span {
+    font-size: 14px;
+}
+.mdetail_name .price {
+    color: #ff5a00;
+    padding: 10px 0 0;
+    text-align: left;
+    height: 24px;
+    line-height: 24px;
+}
+b, em, i {
+    font-weight: 400;
+    font-style: normal;
+}
+.mdetail_name .price em {
+    font-size: 22px;
+    font-weight: 400;
+}
+.mdetail_name .price .number i {
+    font-size: 14px;
+    vertical-align: 0;
+    font-weight: 300;
+}
+.clearfix:after {
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    content: " ";
+}
+.mdetail_name .otherinfo {
+    color: #999;
+    font-size: 12px;
+}
+.mdetail_name .original_price {
+    padding: 2px 0 5px;
+}
+.mdetail_name .title_collect {
+    position: relative;
+    margin-bottom: 5px;
+}
+.mdetail_name .title {
+    min-height: 26px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 100%;
+    font-weight: 700;
+    color: #333;
+}
+.mdetail_name .subtitle {
+    font-size: 12px;
+    line-height: 1.5;
+    color: #666;
+}
