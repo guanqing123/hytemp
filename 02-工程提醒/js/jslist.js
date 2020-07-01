@@ -32,6 +32,10 @@ define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (confi
                             name: "项目编号"
                         },
                         {
+                            field_name: "OPPDES_0",
+                            name: "项目名称"
+                        },
+                        {
                             field_name: "RQ",
                             name: "发货日期"
                         },
@@ -57,7 +61,7 @@ define(['config', 'vue', 'iscrollTable', 'installer', 'lodash'], function (confi
                         }
                     ]
                 ],
-                xField: ['PJT', 'RQ', 'FHJE', 'JSFP', 'FLJE', 'THJE', 'DKJS'],
+                xField: ['PJT', 'OPPDES_0', 'RQ', 'FHJE', 'JSFP', 'FLJE', 'THJE', 'DKJS'],
                 yList: [],
                 current: 1,
                 size: 65536,

@@ -38,7 +38,8 @@ table td {
   border: 0px solid #000;
   min-height: 100%;
   text-align: center;
-  width: 100%;
+  min-width: 100%;
+  /*width: 100%;*/
   table-layout: fixed;
   word-break: break-all;
   border-collapse: collapse;

@@ -37,6 +37,7 @@ table td {
   font-size: 1.0rem;
   border: 0px solid #000;
   min-height: 100%;
+  min-width: 100%;
   text-align: center;
   border-collapse: collapse;
 }
