@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 正文开始 */
+/* 左侧 */
+.item-list-content .i-main {
+    border-top: 1px solid #ededed;
+}
+
+.item-list-content .i-main .slider-lef-nav {
+    float: left;
+    width: 100px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+li, ol, ul {
+    list-style: none;
+}
+
+.item-list-content .i-main .slider-lef-nav li {
+    position: relative;
+    padding: 15px 10px;
+    font-size: 14px;
+    color: #333;
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.item-list-content .i-main .slider-lef-nav li.active {
+    background-color: #fff;
+    font-weight: 700;
+    color: #000;
+}
+
+.item-list-content .i-main .slider-lef-nav li .list-nav-pro {
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* 右侧 */
+.item-list-content .i-main .slider-rig-box {
+    background-color: #fff;
+    position: relative;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#scroller, #wrapper {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+#wrapper {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#scroller {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+.item-list-content .i-main .slider-rig-box .list-box-data li {
+    display: block;
+    padding: 15px 10px 15px 62px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+:link, :visited, a, ins {
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+.item-list-content .i-main .slider-rig-box .list-box-data li .list-box-img {
+    display: block;
+    float: left;
+    width: 52px;
+    height: 52px;
+    margin: 0 0 0 -52px;
+}
+
+.item-list-content .i-main .slider-rig-box .list-box-data li .list-box-img img {
+    border-radius: 50%;
+}
+
+.img, .item-list-content .i-main .slider-lef-nav li .list-nav-img, .item-list-content .i-main .slider-rig-box .list-box-data li .list-box-img img {
+    display: block;
+    width: 100%;
+}
+
+.item-list-content .i-main .slider-rig-box .list-box-data li .list-box-pro {
+    margin: 0 8px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.item-list-content .i-main .slider-rig-box .list-box-data li .list-box-pro h3 {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item-list-content .i-main .slider-rig-box .list-box-data li .list-box-pro p {
+    height: 22px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.item-list-content .i-main .slider-rig-box .list-box-data li .list-box-pro p .pro-price {
+    display: block;
+    float: left;
+    font-size: 14px;
+    color: #f61d4b;
+}
+
+.item-list-content .i-main .slider-rig-box .list-box-data li .list-box-pro p .pro-price .yen {
+    font-style: normal;
+}
+
+.yen {
+    font-size: 12px;
+}
+
+b, em, i {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.item-list-content .i-main .slider-rig-box .list-box-data li .list-box-pro p .pro-link {
+    display: block;
+    float: right;
+}
+
+.item-list-content .i-main .slider-rig-box .list-box-data li .list-box-pro p .pro-link a {
+    display: block;
+    border-radius: 24px;
+    border: .05rem solid #ccc;
+    background: #fff;
+    color: #444;
+    padding: 1px 15px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+:link, :visited, a, ins {
+    text-decoration: none;
+}
+
+.staticLoading {
+    display: block;
+    padding-top: 15px;
+    margin: 0 auto;
+    color: #333;
+    text-align: center;
+}
+
+.staticLoading .staticLoading-icon {
+    width: 16px;
+    height: 16px;
+    background: url(../images/ajax-loading.gif) center no-repeat;
+    background-size: 10px auto;
+}
