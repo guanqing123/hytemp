@@ -129,9 +129,16 @@ define(['config', 'vue', 'plugins/installer', 'plugins/PullUpDown','mui', 'jquer
                 if (!self.$isImg(wjm.wjm)) {
                     // window.location.href = 'download.html?wjm='+ wjm.wjm
                     // return false;
-                    var btns = ['否', '下载'];
+                    var btns = ['关闭','在线预览', '下载'];
                     mui.confirm('非图片格式文件,是否下载?', '温馨提醒', btns, function (e) {
                         if (e.index == 1) {
+                            var originUrl = config.testUrl + '/cpsms/down?fileName='+wjm.wjm;
+                            var previewUrl = originUrl + '&fullfilename='+wjm.wjm;
+                            window.open(config.onlineUrl + '?url='+encodeURIComponent(Base64.encode(previewUrl)));
+                            return false;
+                            // window.location.href = config.onlineUrl + '?url='+encodeURIComponent(Base64.encode(previewUrl));
+                        }
+                        if (e.index == 2) {
                             window.location.href = 'download.html?wjm='+ wjm.wjm;
                             return false;
                         }
